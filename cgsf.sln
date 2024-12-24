@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mildaWebSite", "mildaWebSite\mildaWebSite\mildaWebSite.csproj", "{50041645-DAC4-4263-82E6-3BD4F659D3A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cgsfWebUtil", "cgsfWebUtil\cgsfWebUtil.csproj", "{7B88B6A3-E171-4398-9108-011B6F29789E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kuxan", "kuxan\kuxan.csproj", "{85E45648-1CE9-4119-AC01-11DFD00AE458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anchetasMorita", "AnchetasMorita\anchetasMorita.csproj", "{973E9CD5-4137-4992-901A-9A6C0E5022C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cgsf", "cgsf\cgsf.csproj", "{8B180090-7CF5-4486-8137-559D82BBC12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominioAnchet", "dominioAnchet\dominioAnchet.csproj", "{43AD5A18-8B2E-49B0-B991-BBEC0EC64C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vegMarket", "vegMarket\WebSite\vegMarket.csproj", "{53FDDAAC-F355-40E2-AA13-4D91493B5E48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50041645-DAC4-4263-82E6-3BD4F659D3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50041645-DAC4-4263-82E6-3BD4F659D3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50041645-DAC4-4263-82E6-3BD4F659D3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50041645-DAC4-4263-82E6-3BD4F659D3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B88B6A3-E171-4398-9108-011B6F29789E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B88B6A3-E171-4398-9108-011B6F29789E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B88B6A3-E171-4398-9108-011B6F29789E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B88B6A3-E171-4398-9108-011B6F29789E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E45648-1CE9-4119-AC01-11DFD00AE458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E45648-1CE9-4119-AC01-11DFD00AE458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E45648-1CE9-4119-AC01-11DFD00AE458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E45648-1CE9-4119-AC01-11DFD00AE458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973E9CD5-4137-4992-901A-9A6C0E5022C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973E9CD5-4137-4992-901A-9A6C0E5022C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973E9CD5-4137-4992-901A-9A6C0E5022C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973E9CD5-4137-4992-901A-9A6C0E5022C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B180090-7CF5-4486-8137-559D82BBC12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B180090-7CF5-4486-8137-559D82BBC12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B180090-7CF5-4486-8137-559D82BBC12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B180090-7CF5-4486-8137-559D82BBC12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AD5A18-8B2E-49B0-B991-BBEC0EC64C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AD5A18-8B2E-49B0-B991-BBEC0EC64C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AD5A18-8B2E-49B0-B991-BBEC0EC64C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AD5A18-8B2E-49B0-B991-BBEC0EC64C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FDDAAC-F355-40E2-AA13-4D91493B5E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FDDAAC-F355-40E2-AA13-4D91493B5E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FDDAAC-F355-40E2-AA13-4D91493B5E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FDDAAC-F355-40E2-AA13-4D91493B5E48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00D25D40-96F8-4BD3-9F5C-8D9BC7C61F56}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/kuxancol
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = mildaWebSite\\mildaWebSite\\mildaWebSite.csproj
+		SccProjectName1 = mildaWebSite/mildaWebSite
+		SccLocalPath1 = mildaWebSite\\mildaWebSite
+		SccProjectUniqueName2 = cgsfWebUtil\\cgsfWebUtil.csproj
+		SccProjectName2 = cgsfWebUtil
+		SccLocalPath2 = cgsfWebUtil
+		SccProjectUniqueName3 = kuxan\\kuxan.csproj
+		SccProjectName3 = kuxan
+		SccLocalPath3 = kuxan
+		SccProjectUniqueName4 = AnchetasMorita\\anchetasMorita.csproj
+		SccProjectName4 = AnchetasMorita
+		SccLocalPath4 = AnchetasMorita
+		SccProjectUniqueName5 = cgsf\\cgsf.csproj
+		SccProjectName5 = cgsf
+		SccLocalPath5 = cgsf
+		SccProjectUniqueName6 = dominioAnchet\\dominioAnchet.csproj
+		SccProjectName6 = dominioAnchet
+		SccLocalPath6 = dominioAnchet
+		SccProjectUniqueName7 = vegMarket\\WebSite\\vegMarket.csproj
+		SccProjectName7 = vegMarket/WebSite
+		SccLocalPath7 = vegMarket\\WebSite
+	EndGlobalSection
+EndGlobal

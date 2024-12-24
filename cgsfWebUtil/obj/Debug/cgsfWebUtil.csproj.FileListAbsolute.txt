@@ -1,0 +1,20 @@
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\bin\Debug\cgsfWebUtil.dll.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\bin\Debug\cgsfWebUtil.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\bin\Debug\cgsfWebUtil.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\bin\Debug\EntityFramework.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\bin\Debug\EntityFramework.xml
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\obj\Debug\cgsfWebUtil.csproj.AssemblyReference.cache
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\obj\Debug\cgsfWebUtil.csproj.CoreCompileInputs.cache
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\obj\Debug\cgsfWebUtil.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\obj\Debug\cgsfWebUtil.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsfWebUtil\obj\Debug\cgsfWebU.2B10C829.Up2Date
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\bin\Debug\cgsfWebUtil.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\bin\Debug\cgsfWebUtil.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\bin\Debug\cgsfWebUtil.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\bin\Debug\EntityFramework.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\bin\Debug\EntityFramework.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\obj\Debug\cgsfWebUtil.csproj.AssemblyReference.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\obj\Debug\cgsfWebUtil.csproj.CoreCompileInputs.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\obj\Debug\cgsfWebU.2B10C829.Up2Date
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\obj\Debug\cgsfWebUtil.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsfWebUtil\obj\Debug\cgsfWebUtil.pdb

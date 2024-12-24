@@ -1,0 +1,220 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="cgsf.frm.master.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+  <meta name="description" content="Fabrica de Software, Desarrollamos soluciones puntuales para pequeñas y medianas empresas, empleando metodologías de última generación, estableciendo un amplio flujo de comunicación con el cliente durante el proceso, logrando cubrir las necesidades y expectativas del cliente.">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CG - Software Factory</title>
+
+    <meta name="description" content="CG Software Factory">
+    <meta name="author" content="CGSF">
+
+    <link rel="shortcut icon" href="../../images/favicon.png" type="image/png">
+
+    <link href="../../css/bootstrap.css" rel="stylesheet" media="screen"><!-- Bootstrap main css -->
+    <link href="../../css/theme.css" rel="stylesheet" media="screen"><!-- Goddess main css -->
+    <link href="../../css/theme-responsive.css" rel="stylesheet" media="screen"><!-- Goddess responsive css -->
+    <link href="../../css/fancybox.css" rel="stylesheet" media="screen"><!-- fancybox standart css -->
+    <link href="../../css/fancybox-theme.css" rel="stylesheet" media="screen"><!-- fancybox theme customization -->
+    <link href="../../css/theme-color.css" rel="stylesheet" media="screen"><!-- select color theme -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"><!-- Font Awesome css -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'><!-- Font Lato -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'><!-- Font Open Sans -->
+
+    <script src="../../scripts/vendor/jquery-1.11.0.min.js"></script><!-- jQuery -->
+    <script src="../../scripts/vendor/modernizr.custom.js"></script><!-- navigation -->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99570091-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+<!--Start of Tawk.to Script-->
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5b3e52d46d961556373d732b/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+	<body data-spy="scroll" data-target="#gn-menu" class="not-global-detect">
+
+      <div id="detect-mobile" class="detect-mobile" 
+          data-toggle="tooltip" 
+          data-placement="left" 
+        >
+                    <img  src="../../img/Logo%20CG%20mini.png" />
+    </div>
+
+<!-- NAVIGATION -->
+
+    <!-- Main navigation -->
+    <ul id="gn-menu" class="gn-menu-main">
+        <li class="gn-trigger">
+            <a class="gn-icon gn-icon-menu"><i class="fa fa-bars fa-2x"></i><span>Menu</span></a>
+
+            <!-- Main menu -->
+            <nav class="gn-menu-wrapper">
+                <div class="gn-scroller">
+                    <ul class="nav gn-menu">
+                        <li>
+                            <a href="#carousel-01-landing" class="scroll sr-only"></a>
+                        </li>
+                        <li>
+                            <div class="gn-selector"></div>
+                            <a href="../../default.aspx" ><i class="fa fa-circle-o"></i><span>Inicio</span></a>
+                        </li>
+                        <li>
+                            <div class="gn-selector"></div>
+                            <a href="../../frm/logica/frmlogin.aspx" ><i class="fa fa-heart"></i><span>Zona de Clientes</span></a>
+                        </li>
+                        <li>
+                            <div class="gn-selector"></div>
+                            <a href="../../frm/logica/frmlogin.aspx" ><i class="fa fa-dot-circle-o"></i><span>Intranet</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </li>
+        <li>
+            <div class="logo" style="margin-left:5px !important;z-index: 55500 !important;">
+            <a href="../../default.aspx"  >
+                  <img style="width:250px;" src="../../img/Logo%20CG%20blanco.png" /></a>
+                </div>
+
+        </li>
+    </ul>
+    <form id="form1" runat="server">
+   
+
+         <div class="container">
+        <section>
+            
+          <div style="min-height:500px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+              </div>
+        </section>
+    </div>
+
+    </form>
+    <!-- FOOTER -->
+
+              <div class="chevron-bottom"></div>
+    <section id="g-footer" class="footer invert-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 text-right">
+                    <h3 class="no-margin-btm">CG Software Factory</h3>
+                    <div class="row">
+                        <div class="col-lg-6 col-lg-offset-6">
+                            <div class="separator-theme-color"></div>
+                        </div>
+                    </div>
+                    <p>"Todo lo que una persona puede imaginar, otras podrán hacerlo realidad - Julio Verne."</p>
+                    <a href="../../frm/logica/frmcontactenos.aspx" class="btn btn-primary btn-sm">Contactenos</a>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <h3 class="no-margin-btm">Enlaces de Interes</h3>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="separator-dark-color"></div>
+                        </div>
+                    </div>
+                    <ul class="follow-us">
+                        <li>
+                            <a target="_blank" href="http://www.zoho.com/mail/login.html">
+                                <div class="follow-title">Correo</div>
+                                <div class="follow-icon">
+                                    <i class="fa fa-mail-forward"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/CG-SOFTWARE-FACTORY-LTDA-51291374775/">
+                                <div class="follow-title">Facebook</div>
+                                <div class="follow-icon">
+                                    <i class="fa fa-facebook"></i>
+                                </div>
+                            </a>
+                        </li>
+                      
+                       
+                       
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer-copyrights">
+        <div class="container">
+            <ul class="copyrights pull-left">
+                <li><a href="#" class="logo">  <img src="../../img/Logo%20CG%20blanco.png" /></li>
+                <li><p>Todos los derechos reservados, 2018</p></li>
+            </ul>
+            <ul class="footer-navigation pull-right">
+                <asp:Panel runat="server" ID="pnlMenuPie">
+                <li><a href="#g-welcome" class="scroll">Inicio</a></li>                
+                <li><a href="#g-about" class="scroll">Acerca de </a></li>
+                <li><a href="#g-portfolio" class="scroll">Portafolio</a></li>
+                <li><a href="#g-clients" class="scroll">Clientes</a></li>
+                <li><a href="#g-feedback" class="scroll">Contactenos</a></li>
+                </asp:Panel>
+            </ul>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+    <!-- SCRIPTS -->
+
+    <!-- Bootstrap -->
+    <script src="../../scripts/vendor/bootstrap.min.js"></script><!-- Minified version of bootstrap -->
+    <!--<script src="scripts/vendor/bootstrap.js"></script>--><!-- Readable version of bootstrap -->
+    <!-- Fancybox 2 -->
+    <script src="../../scripts/vendor/jquery.fancybox.pack.js"></script>
+    <script src="../../scripts/vendor/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="../../scripts/vendor/jquery.fancybox-media.js"></script>
+    <!-- Scripts for main navigation -->
+    <script src="../../scripts/vendor/gnmenu.js"></script>
+    <script src="../../scripts/vendor/classie.js"></script>    
+    <!-- scripts for svg-animation -->
+    <script src="../../scripts/vendor/snap.svg-min.js"></script>
+    <script src="../../scripts/hovers.js"></script>
+    <!-- Google map -->
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script><!-- google api -->
+    <script src="../../scripts/vendor/gmaps.js"></script><!-- google map -->
+    <!-- Other scripts -->
+    <script src="../../scripts/vendor/jquery.validate.min.js"></script><!-- form validation -->
+    <script src="../../scripts/vendor/retina-new.js"></script><!-- retina graphics -->
+    <script src="../../scripts/contact.js"></script><!-- scripts for contacts -->
+    <script src="../../scripts/common.js"></script><!-- goddess settings -->
+   
+
+</body>
+</html>

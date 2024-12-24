@@ -1,0 +1,357 @@
+/* Color Theme - Royal Purple /Violet/
+
+color - #753fac
+
+/* 01 MAIN STYLES
+****************************************************************************************************/
+a {
+  color: #753fac;
+}
+::selection {
+  color: #fff;
+  background: #753fac;
+}
+::-moz-selection {
+  color: #fff;
+  background: #753fac;
+}
+/* Grid */
+.section-description-theme-separator {
+  border-top: 1px solid #753fac;
+}
+/* Typography */
+.text-theme-color {
+  color: #753fac;
+}
+/* logo */
+.logo span {
+  color: #753fac;
+}
+/* 02 NAVIGATION
+****************************************************************************************************/
+.gn-menu-wrapper {
+  border-top: 1px solid #753fac;
+}
+/* nav menu */
+.gn-menu {
+  border-bottom: 5px solid #753fac;
+}
+.gn-selector {
+  background: #753fac;
+}
+.gn-selector:after,
+.gn-selector::after {
+  border-left: 10px solid #753fac;
+}
+input.gn-search {
+  color: #753fac;
+}
+/* icons on navbar */
+.icon-nav:hover {
+  background: #753fac;
+  color: #fff;
+}
+/* placeholder */
+.gn-search::-webkit-input-placeholder {
+  color: #753fac
+}
+.gn-search:-moz-placeholder {
+  color: #753fac
+}
+.gn-search::-moz-placeholder {
+  color: #753fac
+}
+.gn-search:-ms-input-placeholder {
+  color: #753fac
+}
+.no-touch .gn-icon-menu i {
+  color: #753fac;
+}
+.no-touch .gn-icon-menu.gn-selected:hover i,
+.gn-icon-menu.gn-selected i {
+  color: #fff;
+}
+.no-touch .gn-icon-menu.gn-selected:hover,
+.gn-icon-menu.gn-selected  {
+  background: #753fac;
+  color: #fff;
+}
+
+/* 03. CAROUSELS (SLIDERS)
+****************************************************************************************************/
+.carousel-indicators li {
+  border: 1px solid #753fac;
+}
+.carousel-indicators .active {
+  background-color: #753fac;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #753fac;
+}
+.carousel-caption a:hover {
+  color: #753fac;
+}
+.slider-landing-left-wrapper:hover .slider-landing-left:after {
+  border-bottom: 100px solid #753fac;
+}
+.slider-landing-right-wrapper:hover .slider-landing-right:after {
+  border-right: 400px solid #753fac;
+}
+/* Chevron for landing slider*/
+.btn-welcome:hover span {
+  background: #753fac;
+  border: 1px solid #753fac;
+}
+/* Video Landing */
+.element-landing-left:after {
+  border-bottom: 100px solid #753fac;
+}
+.element-landing-right:after {
+
+  border-right: 400px solid #753fac;
+}
+/* Video Controls */
+.video-controls a:hover {
+  background: #753fac;
+}
+/* Carousel-03 (Clients) */
+/* Outside controls */
+.outside-controls-for-slider a:hover,
+.outside-controls-for-slider a.hover {
+  background: #753fac;
+}
+
+/* 04 BUTTONS
+****************************************************************************************************/
+/* Button primary */
+.btn-primary {
+  background-color: #753fac;
+  border-color: #753fac;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #753fac;
+  border-color: #753fac;
+}
+figcaption .btn-primary:hover,
+figcaption .btn-primary:focus,
+figcaption .btn-primary:active,
+figcaption .btn-primary.active {
+  color: #753fac;
+  background-color: #fff;
+  border-color: #fff;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #753fac;
+  border-color: #753fac;
+  opacity: 0.5;
+}
+.btn-primary .badge {
+  color: #753fac;
+  background-color: #fff;
+}
+
+/* 05 SVG (SVG ANIMATION)
+****************************************************************************************************/
+/* Common styles */
+/* Style for SVG */
+.svg-animation svg path {
+  fill: #753fac;
+}
+
+/* 06 SECTIONS + SVG
+****************************************************************************************************/
+/* Features */
+.hover-listener-for-icons:hover .fa-circle {
+  color: #753fac;
+}
+/* About Us + SVG */
+.about-social-icons li {
+  color: #753fac;
+}
+/* About Us. SVG */
+.about-social-icons a:hover .fa-inverse {
+  color: #753fac;
+}
+/* Portfolio. SVG */
+.portfolio-thumb-svg figcaption a:hover .fa-inverse {
+  color: #753fac;
+}
+/* Portfolio-invert */
+.portfolio-thumb-svg-invert svg path {
+  fill: #000;
+}
+.portfolio-thumb-svg-invert .open-image {
+  color: #753fac;
+}
+.portfolio-thumb-svg-invert figcaption a:hover .fa-inverse {
+  color: #753fac;
+}
+/* Pricing tables */
+.pricing-title {
+  color: #753fac;
+}
+.pricing-stuff li:before {
+  color: #753fac;
+}
+.pricing-stuff li:hover {
+  background: #753fac !important;
+}
+/* Blog + SVG */
+.topic-date {
+  color: #fff;
+}
+/* Blog-invert */
+.blog-topic-svg-invert .topic-date {
+  border-color: #753fac;
+}
+.blog-topic-svg-invert svg path {
+  fill: #000;
+}
+/* blog-topic */
+.topic-title-date,
+.topic-title-comments {
+  color: #753fac;
+}
+/* Contacts */
+.nav-tabs-circle > li > a:hover {
+  background-color: #753fac;
+}
+.nav-tabs-circle > li.active > a,
+.nav-tabs-circle > li.active > a:hover,
+.nav-tabs-circle > li.active > a:focus {
+  background-color: #753fac;
+}
+.gmap-overlay-marker i {
+  color: #753fac !important;
+}
+/* Feedback, Subscribe (Forms) */
+.form-control:focus {
+  border-color: #753fac;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(117, 63, 172, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(117, 63, 172, .6);
+}
+.success-message {
+  background: #753fac;
+}
+.has-error {
+  color: #753fac;
+}
+/* Follow us */
+.follow-us li:hover {
+  background: #753fac;
+}
+/* Footer copyrights */
+.footer-navigation li a:hover {
+  color: #753fac;
+}
+
+/* 07 Additional elements
+****************************************************************************************************/
+/* Separators */
+.separator-theme-color {
+  background: #753fac;
+}
+
+/* Quotes */
+.quote-full {
+  width: auto;
+}
+
+.quote-text:before,
+.quote-text:after {
+  background: #753fac;
+}
+/* Tooltip */
+.tooltip-inner {
+  background-color: #753fac;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #753fac;
+}
+.tooltip.top-left .tooltip-arrow {
+  border-top-color: #753fac;
+}
+.tooltip.top-right .tooltip-arrow {
+  border-top-color: #753fac;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #753fac;
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #753fac;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #753fac;
+}
+.tooltip.bottom-left .tooltip-arrow {
+  border-bottom-color: #753fac;
+}
+.tooltip.bottom-right .tooltip-arrow {
+  border-bottom-color: #753fac;
+}
+/* Detect mobile button */
+.global-mobile-on .detect-mobile {
+  background: #753fac;
+}
+/* revolution navigation */
+.tp-bullets.simplebullets.goddess .bullet {
+  border: 1px solid #753fac;
+}
+.tp-bullets.simplebullets.goddess .bullet.selected {
+  background: #753fac;
+}
+/* Blog Section */
+.searchForm .btn-search {
+  color: #753fac;
+}
+ul.tagList li {
+  background: #753fac;
+}
+/* Responsive */
+@media (max-width: 639px) {
+  .carousel-02 .carousel-caption {
+    background: #753fac;
+  }
+}
+@media (max-width: 479px) {
+  .reply:before {
+    background: #753fac;
+  }
+}
+/* Fancybox elements
+****************************************************************************************************/
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background-image: url('../../images/fancybox/controls-themes/royal_purple/fancybox_sprite.png');
+}
+.fancybox-title-float-wrap .child {
+  background: #753fac;
+}
+/*Retina graphics!*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+     only screen and (min--moz-device-pixel-ratio: 1.5),
+     only screen and (min-device-pixel-ratio: 1.5){
+
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url('../../images/fancybox/controls-themes/royal_purple/fancybox_sprite@2x.png');
+    background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
+  }
+}

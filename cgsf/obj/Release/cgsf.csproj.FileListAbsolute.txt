@@ -1,0 +1,13 @@
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsf.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsf.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsf.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsfWebUtil.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\EntityFramework.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsfWebUtil.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsfWebUtil.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\EntityFramework.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Release\cgsf.csproj.AssemblyReference.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Release\cgsf.csproj.CoreCompileInputs.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Release\cgsf.csproj.Up2Date
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Release\cgsf.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Release\cgsf.pdb

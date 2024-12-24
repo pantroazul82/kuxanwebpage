@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Goddess - One-page Template</title>
+
+    <meta name="description" content="Goddess - One-page Template">
+    <meta name="author" content="ArtRow">
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/theme.css" rel="stylesheet" media="screen">
+    <link href="css/documentation.css" rel="stylesheet" media="screen">
+    <link href="css/theme-responsive.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+</head>
+	<body>
+        <a href="#goddess-top" class="btn btn-default goddess-top">Go top</a>
+        <div id="goddess-top"></div>
+        
+        <div class="container">
+            <section>
+                <h1 class="main-title topic-title">
+                    <span>Documentation</span>
+                    <div class="topic-title-date">Goddess</div>
+                </h1>
+            </section>
+            <section class="documentation">
+                <ul class="goddess-content">
+                    <li>01. <a href="#g01">About Goddess</a></li>
+                    <li>02. <a href="#g02">Template's files</a></li>
+                    <li>03. <a href="#g03">Template's elements</a></li>
+                    <ul class="sub-content">
+                        <li>03.01 <a href="#g0301">Button for touch-devices</a></li>
+                        <li>03.02 <a href="#g0302">Video</a></li>
+                        <li>03.03 <a href="#g0303">Navigation menu</a></li>
+                        <li>03.04 <a href="#g0304">Sliders (Carousels)</a></li>
+                        <li>03.05 <a href="#g0305">Chevrons</a></li>
+                        <li>03.06 <a href="#g0306">Icons</a></li>
+                        <li>03.07 <a href="#g0307">SVG</a></li>
+                        <li>03.08 <a href="#g0308">Fancybox 2 plugin (Portfolio)</a></li>
+                        <li>03.09 <a href="#g0309">Pricing Tables</a></li>
+                        <li>03.10 <a href="#g0310">Blog</a></li>
+                        <li>03.11 <a href="#g0311">Comments</a></li>
+                        <li>03.12 <a href="#g0312">Our clients</a></li>
+                        <li>03.13 <a href="#g0313">Contacts (Address, Google maps, Google streetview)</a></li>
+                        <li>03.14 <a href="#g0314">Feedback / Contact Form</a></li>
+                        <li>03.15 <a href="#g0315">Subscribe</a></li>
+                        <li>03.16 <a href="#g0316">Blockquotes</a></li>
+                        <li>03.17 <a href="#g0317">Fonts</a></li>
+                        <li>03.18 <a href="#g0318">Buttons</a></li>
+                        <li>03.19 <a href="#g0319">Images. Recommendations</a></li>
+                        <li>03.20 <a href="#g0320">Color Themes</a></li>
+                    </ul>
+                    <li>04. <a href="#g04">Help & FAQ</a></li>
+                    <ul class="sub-content">
+                        <li>04.01 <a href="#g0401">Will embedded Vimeo videos play on mobile devices?</a></li>
+                        <li>04.02 <a href="#g0402">Can I make my embedded Vimeo videos default to HD?</a></li>
+                        <li>04.03 <a href="#g0403">Video controls for Vimeo do not work</a></li>
+                        <li>04.04 <a href="#g0404">How to change the background for Fancybox overlay?</a></li>
+                        <li>04.05 <a href="#g0405">How to change the color of the buttons in Fancybox?</a></li>
+                        <li>04.06 <a href="#g0406">Mousewheel scrolling doesn't work in Fancybox</a></li>
+                        <li>04.07 <a href="#g0407">How to change Google Map marker?</a></li>
+                        <li>04.08 <a href="#g0408">How to change slide transition mode in Bootstrap carousel?</a></li>
+                        <li>04.09 <a href="#g0409">How to start the gallery with only one preview picture?</a></li>
+                        <li>04.10 <a href="#g0410">Contact form doesn't work?</a></li>
+                        <li>04.11 <a href="#g0411">How to change the email address for the contact form?</a></li>
+                        <li>04.12 <a href="#g0412">Video doesn't work in Fancybox?</a></li>
+                        <li>04.13 <a href="#g0413">Advertising on a YouTube video shows up</a></li>
+                        <li>04.14 <a href="#g0414">Some images are hidden with attribute @2x?</a></li>
+                        <li>04.15 <a href="#g0415">Video doesn't play on iOS devices?</a></li>
+                        <li>04.16 <a href="#g0416">SVG don't change color depending on the color schemes in the Revolution slider</a></li>
+                        <li>04.17 <a href="#g0417">How to mute the landing video (vimeo/youtube)?</a></li>
+                        <li>04.18 <a href="#g0418">How to change background image for rainy landing?</a></li>
+                    </ul>
+                    <li>05. <a href="#g05">Updates/Release Log</a></li>
+                    <li>06. <a href="#g06">Credits</a></li>
+                </ul>
+            </section>
+            <section class="documentation">
+
+                <div id="g01"></div>
+                <h2><small>01.</small> About Goddess</h2>
+                <div class="separator-theme-color"></div>
+                <p>Goddess - is a one page website template with a modern design based on Bootstrap 3. Goddess is supported by all modern browsers, including mobile devices. The template has responsive design and graphic optimized for high-resolution screens (retina-ready). Goddess has five landing pages: bootstrap slider, Revolution Slider, Vimeo, YouTube and Rainy Landings. The template consists of modules that can be easily deleted, added or exchanged. The distinction of Goddness is the switch button for touch devices. With the help of this button you can activate all the hover effects (which is very convenient for touch devices). The template menu is implemented in the manner of the sidebar menu of the Google Nexus 7 page. Besides Goddess has two variants of the main page with a loopable video (YouTube and Vimeo API).<br>
+                The template has the main slider with a unique design, svg-animation, font Awesome icons, pricing tables, blog with topics, simple portfolio with integrated FancyBox plugin, Google Maps and Google Street View. The template also has two working php-forms with validation (feedback and subscription). Goddess already comes with color schemes.</p>
+                <div id="g02"></div>
+                <h2><small>02.</small> Template's files</h2>
+                <div class="separator-theme-color"></div>
+                <h3>Folders and Files:</h3>
+                    <ul>
+                        <li><b class="text-theme-color">assets </b>(folder with assets for Revolution slider)</li>
+                        <li><b class="text-theme-color">blog: </b>(folder with blog topics)</li>
+                        <ul>
+                            <li><b>topic_01.html</b></li>
+                            <li><b>topic_02.html</b></li>
+                            <li><b>topic_03.html</b></li>
+                            <li><b>topic_04.html</b></li>
+                        </ul>
+                        <li><b class="text-theme-color">css: </b></li>
+                        <ul>
+                            <li><b class="text-theme-color">themes: </b>(folder with color schemes)</li>
+                            <li><b>bootstrap.css</b> — <i>main bootstrap css</i></li>
+                            <li><b>documentation.css</b> — <i>styles for documentation</i></li>
+                            <li><b>fancybox.css</b> — <i>main fancybox css</i></li>
+                            <li><b>fancybox-theme.css</b> — <i>theme styled fancybox css</i></li>
+                            <li><b>settings.css</b> — <i>styles for Revolution slider</i></li>
+                            <li><b>theme.css</b> — <i>main template css file</i></li>
+                            <li><b>theme-color.css</b> — <i>file with import color themes</i></li>
+                            <li><b>theme-responsive.css</b> — <i>responsive styles</i></li>
+                        </ul>
+                        <li><b class="text-theme-color">images: </b>(folder with all graphics)</li>
+                        <li><b class="text-theme-color">php: </b></li>
+                        <ul>
+                            <li><b>contact.php</b> — <i>php settings for contact form. Here you can change email address.</i></li>
+                            <li><b>subscribe.php</b> — <i>php settings for subscribing</i></li>
+                            <li><b>subscribe.txt</b> — <i>mails will be written to this file</i></li>
+                        </ul>
+                        <li><b class="text-theme-color">scripts: </b></li>
+                        <ul>
+                            <li><b class="text-theme-color">vendor:</b> — <i>external scripts</i></li>
+                            <ul>
+                                <li><b>bootstrap.js</b> — <i>main bootstrap scripts. Readable version. <a href="http://getbootstrap.com/">more information</a></i></li>
+                                <li><b>bootstrap.min.js</b> — <i>main bootstrap scripts. Minified version. <a href="http://getbootstrap.com/">more information</a></i></li>
+                                <li><b>classie.js</b> — <i>class helper functions from bonzo https://github.com/ded/bonzo. Used for navigation.</i></li>
+                                <li><b>gmaps.js</b> — <i>allows you to use the potential of Google Maps in a simple way. <a href="http://hpneo.github.io/gmaps/">more information</a></i></li>
+                                <li><b>gnmenu.js</b> — <i>scripts for template's menu. <a href="http://tympanus.net/codrops/2013/07/30/google-nexus-website-menu/">more information</a></i></li>
+                                <li><b>jquery.fancybox.pack.js</b> — <i>FancyBox 2 scripts. <a href="http://fancyapps.com/fancybox/">more information</a></i></li>
+                                <li><b>jquery.fancybox-media.js</b> — <i>FancyBox 2 media-helpers. <a href="http://fancyapps.com/fancybox/">more information</a></i></li>
+                                <li><b>jquery.fitvids.js</b> — <i>responsive video. <a href="http://fitvidsjs.com/">more information</a></i></li>
+                                <li><b>jquery.mousewheel-3.0.6.pack.js</b> — <i>mousewheel scripts for Fancybox.</i></li>
+                                <li><b>jquery.validate.min.js</b> — <i>validator for contact forms.</i></li>
+                                <li><b>jquery.themepunch.plugins.min.js</b> — <i>plugins for Revolution slider. <a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848">more information</a></i></li>
+                                <li><b>jquery.themepunch.revolution.min.js</b> — <i>Revolution slider. <a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848">more information</a></i></li>
+                                <li><b>jquery-1.11.0.min.js</b> — <i>JavaScript library. <a href="http://jquery.com/">more information</a></i></li>
+                                <li><b>modernizr.custom.js</b> — <i>custom script. Used for navigation.</i></li>
+                                <li><b>rainyday.js</b> — <i>script for rainy effects. (This script has issue with window resizing, below goes fixed version) <a href="http://maroslaw.github.io/rainyday.js/">more information</a></i></li>
+                                <li><b>rainyday.js</b> — <i>fixed version (Used for default)</i></li>
+                                <li><b>retina.js</b> — <i>script for high-resolution graphics. <a href="http://imulus.github.io/retinajs/">more information</a></i></li>
+                                <li><b>retina-new.js</b> — <i>fixed version (Used for default)</i></li>
+                                <li><b>snap.svg-min.js</b> — <i>scripts for svg-animation. <a href="http://tympanus.net/codrops/2014/01/07/shape-hover-effect-with-svg/">more information</a></i></li>
+                            </ul>
+                            <li><b>common.js</b> — <i>main settings for the template</i></li>
+                            <li><b>common-blog.js</b> — <i>main settings for the blog page</i></li>
+                            <li><b>contact.js</b> — <i>settings for the contact forms</i></li>
+                            <li><b>hovers.js</b> — <i>script for svg-animation</i></li>
+                            <li><b>revolution-settings.js</b> — <i>settings for revolution slider</i></li>
+                            <li><b>video-vimeo.js</b> — <i>script for vimeo</i></li>
+                            <li><b>video-youtube.js</b> — <i>script for vimeo</i></li>
+                        </ul>
+                        <li><b>index.html</b> — <i>main index-file with bootstrap slider</i></li>
+                        <li><b>index-rainy.html</b> — <i>template with rainy effects</i></li>
+                        <li><b>index-revolution.html</b> — <i>template with slider Revolution</i></li>
+                        <li><b>index-vimeo.html</b> — <i>template with landing vimeo</i></li>
+                        <li><b>index-youtube.html</b> — <i>template with landing youtube</i></li>
+                        <li><b>blog.html</b> — <i>blog page</i></li>
+                        <li><b>documentation.html</b></li>
+                        <li><b class="text-theme-color">documentation_revolutionslider.zip</b> — <i>documentation for Revolution Slider</i></li>
+                    </ul><br>
+
+                <div id="g03"></div>
+                <h2><small>03.</small> Template's elements</h2>
+                <div class="separator-theme-color"></div>
+
+                <div id="g0301"></div>
+                <h3><small>03.01</small> Button for touch-devices</h3>                
+                <p>This button is designed for convenient work on touch devices. It can be also used for other purposes (for example to always see the blog title). The button activates all the hover effects on the page, so that the user will never miss anything important.</p>
+                <h4>General principles (for developers)</h4>
+                <p><i>".Not-global-detect"</i> class is set for the body by default. This class is used for the landing slider only. It is responsible for the <a href="#workslider">work of chevron-slider-landing</a>. Once you press the button, <i>".not-global-detect"</i> class is deleted forever.  Afterward you start working with two classes: <i>"global-mobile-on"</i> and <i>"global-mobile-off"</i>. Further switching between them will affect the landing slider the following way: the chevron either always visible or completely invisible. (all the hover-effects are disabled in these classes).</p>
+
+                <div id="g0302"></div>
+                <h3><small>03.02</small> Video</h3>
+                <p>The template has two additional versions with a video cutscene - YouTube and Vimeo. The video starts automatically and plays cyclic. In the upper right part of the screen the video has its own control buttons. Vimeo API allows you to control the video online only. Each video has an invisible layer preventing clicks. You can disable it by deleting div class="iframe-block". Video control buttons are only visible when a user brings the mouse over the video. When the button for touch devices is active, video control buttons are visible all the time.</p>
+                <a class="btn btn-default btn-sm">Play</a>
+                <a class="btn btn-default btn-sm">Pause</a>
+                <a class="btn btn-default btn-sm">Stop</a>
+                <a class="btn btn-default btn-sm">Mute</a>
+                <a class="btn btn-default btn-sm">Sound</a>
+                
+                <h4 id="workslider">chevron-slider-landing</h4>
+                <p>Chevron-slider-landing is always displayed over the slider. When a user brings the mouse over the slider, chevron is hidden, so the user can watch the slides. Thus the chevron is visible in three following cases: when the cursor is out of the slider, when the cursor is in the upper part of the slider or when the touch devices button is activated. All the logic is developed in CSS.</p>
+                <div class="clearfix"></div>
+                <h4>How to insert a video from YouTube:</h4>
+                <p>Use the <b>video-youtube.html</b> template, optimized for YouTube. Find "Wrapper for video" and replace the link. The video cycles through the playlist. </p>
+                <ul>Elements used:
+                    <li>- fitvids.js</li>
+                    <li>- video-youtube.js</li>
+                    <li>- video html-controls only for youtube</li>
+                </ul>
+                <h4>How to insert a video from Vimeo:</h4>
+                <p>Use <b>video-vimeo.html</b> template, optimized for Vimeo. Find "Wrapper for video" and replace the link.</p>
+                <ul>Elements used:
+                    <li>- fitvids.js</li>
+                    <li>- video-vimeo.js</li>
+                    <li>- vimeo API</li>
+                    <li>- video html-controls only for vimeo</li>
+                </ul>
+
+                <div id="g0303"></div>
+                <h3><small>03.03</small> Navigation menu</h3>
+                <p>The navigation menu is as seen on the Google Nexus 7 page. Find more information about it <a href="http://tympanus.net/codrops/2013/07/30/google-nexus-website-menu/">here</a>. Some css elements are rewritten for better support by different devices.</p>
+
+                <div id="g0304"></div>
+                <h3><small>03.04</small> Sliders (Carousels)</h3>
+                <p>The template has three carousels. The first one (Landing slider) is for large full-size photos. The second slider is perfect for images with transparent background. The third one shows you the way to rotate multiple elements (Our clients). In the landing slider all the navigation buttons are created with the use of borders and have different (not mirror-like) settings. Make sure to have a good understanding of layout settings if you decide to change them.<br>
+                Using Bootstrap carousel you can create a prototype of a navigation page with any section of the website taking "Our Clients" section as an example.<br>
+                More detailed information on how to work with Bootstrap carousel can be found <a href="http://getbootstrap.com/javascript/#carousel">here</a>.</p>
+
+                <div id="g0305"></div>
+                <h3><small>03.05</small> Chevrons</h3>
+                <ul>The template has several variants of chevron:
+                    <li><i>chevron-top</i> — chevron with upper top</li>
+                    <li><i>chevron-bottom</i> — chevron with lower top</li>
+                    <li><i>chevron-slider-landing</i> — chevron used for the main slider. It has unique settings and used in the main slider only.</li>
+                    <li><i>chevron-slider-core</i> — element, helping to position all the other included chevrons to build a background. Used in the slider #2.</li>
+                    <li><i>chevron-video</i> — NOT A CHEVRON. Used for setting a chevron to the video size. </li>
+                </ul>
+
+                <div id="g0306"></div>
+                <h3><small>03.06</small> Font Awesome</h3>
+                <p>The template uses font Awesome for the icons. Please, proceed <a href="http://fortawesome.github.io/Font-Awesome/">here</a> to get all the information about it.</p>
+
+                <div id="g0307"></div>
+                <h3><small>03.07</small> SVG</h3>
+                <p>The template has several svg-animations. They are used as hover effects in the following sections: About Us, Portfolio, Blog. The general work principles of the scripts are described <a href="http://tympanus.net/codrops/2014/01/07/shape-hover-effect-with-svg/">here</a>.</p>
+
+                <div id="g0308"></div>
+                <h3><small>03.08</small> Fancybox 2 plugin (Portfolio)</h3>
+                <p>Portfolio is represented as a simple section with constant-width miniatures (do not depend on the screen width). On 320 screen resolution mobile phones the images are cut. You can only insert images, video or other type of content with preview to this portfolio. It doesn't have navigation, filter and sorting. However you can easily implement the pagination by means of  Bootstrap carousel.<br>
+                Previews have two color styles: the theme color and black. To use the theme color, please apply <i>.portfolio-thumb-svg</i> style. To use black color, apply <i>.portfolio-thumb-svg-invert style</i>.<br>
+                FancyBox 2 plugin is used as the content preview. The styles and the settings for this plugin can be found in the following file: <i>fancybox-theme.css</i>. To change the preview background, open <b>common.js</b> and find "// Initialize Fancybox". Change the background color 'background' : 'rgba(255, 255, 255, 0.9)'. All the details on the plugin can be found <a href="http://fancyapps.com/fancybox/">here</a>.</p>
+
+                <div id="g0309"></div>
+                <h3><small>03.09</small> Pricing Tables</h3>
+                <p>Pricing tables are created with <i>.col-*</i> styles. To make all the columns of the same height without using table styles in css, the parent has <i>.pricing-*</i> style  with the number showing the maximum quantaty of positions in a table. E.g. if 6 is the maximum number of positions, apply <i>.pricing-6</i> style to the parent. By default the maximum number of positions supported is 10, but you can make changes to the styles and extend the number of positions.<br>
+                When mouse is over one of the positions - the equivalent positions in the neighbor tables are highlighted. It is implemented through the use of JS (in the common.js). By default the code is written for the first 10 positions, however it can be modified and the number can be increased.</p>
+
+                <div id="g0310"></div>   
+                <h3><small>03.10</small> Blog</h3>
+                <p>The blog consists of image previews. The title and additional information is displayed when mouse over or when the button for hover effects is activated. The animation used for the blog is created by means of svg. For that reason it takes some effort to customize the internal sections, so they have a lot of requirements in the file <b>theme-responsive.css</b>. For the same reason the following background image size is highly recommended — 1800x500. Hover effects also have two styles: theme color and black color. Style <i>.blog-topic-svg</i> is used for the first case, for the second case - <i>.blog-topic-svg-invert</i>.<br>
+                All the topics open in a new window and have internal navigation between themselves and the top of the screen.</p>
+
+                <div id="g0311"></div>
+                <h3><small>03.11</small> Comments</h3>
+                <p>Goddess is delivered as an html-template. Some functionality is not implemented as working properly. Here comments are represented as a template only.</p>
+
+                <div id="g0312"></div>
+                <h3><small>03.12</small> Our clients</h3>
+                <p>This section is implemented by means of Bootstrap carousel scrolling the list of logo images.</p>
+
+                <div id="g0313"></div>
+                <h3><small>03.13</small> Contacts (Address, Google maps, Google streetview)</h3>
+                <ul>The "contacts" section consists of three tabs:
+                    <li>Google map</li>
+                    <li>Photo/image (Insert photo of your place)</li>
+                    <li>Google streetview</li>
+                </ul>
+
+                <div id="g0314"></div>
+                <h3><small>03.14</small> Feedback / Contact Form</h3>
+                <p>The contact form is working and has validation. It sends a message to the required address. To change the email address, please refer to: "<b>php/contact.php</b>"</p>
+                <pre>$emailTo = '<span class="text-theme-color"><b>your@mail.com</b></span>';</pre>
+
+                <div id="g0315"></div>
+                <h3><small>03.15</small> Subscribe</h3>
+                <p>The form is working and has validation. It inputs emails to a text file here: "<b>php/subscribe.txt</b>".</p>
+
+                <div id="g0316"></div>
+                <h3><small>03.16</small> Blockquotes</h3>
+                <ul>The scheme of the quote:
+                    <li><b>Wrapper blockquote class="quote-full"</b> — a required class, aligns the blockquote. For aligning the blockquote to the left or right, add to the main style <i>.quote-left</i> style or <i>.quote-right</i> style.</li>
+                    <li><b>div class="quote-text"</b> — the quote body</li>
+                    <li><b>span</b> — author of the quote</li>
+                </ul>
+
+                <div id="g0317"></div>
+                <h3><small>03.17</small> Fonts</h3>
+                <ul>The template includes 3 fonts:
+                    <li><a href="http://www.google.com/fonts/specimen/Lato">Lato</a> — the main font of the template.</li>
+                    <li><a href="http://www.google.com/fonts/specimen/Open+Sans">Open Sans</a> — an additional font (used for better readability in some cases). </li>
+                    <li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> — font for the icons and elements.</li>
+                </ul>
+
+                <div id="g0318"></div>
+                <h3><small>03.18</small> Buttons</h3>
+                <p>There are two main types of buttons in the template:
+                <div class="btn-inline">
+                    <div class="btn btn-default">Default Button — .btn-default</div>
+                    <div class="btn btn-primary">Primary Button — .btn-primary</div>
+                </div>
+                To avoid sticking of the buttons in the row when rearrangement, put them into div with <i>.btn-inline</i> class.</p>
+
+                <div id="g0319"></div>
+                <h3><small>03.19</small> Images. Recommendations</h3>
+                <h4>Landing slider</h4>
+                <p>Any large image will work for the main slider. It is highly recommended to use images of the same size in order to avoid the slider jumps.</p>
+                <h4>About Us</h4>
+                <p>This section can be filled with photos of any size and proportions, however, it is highly recommended to use images of the same size in order to avoid the slider jumps.</p>
+                <h4>Portfolio</h4>
+                <p>In this section thumbnails have a strictly required size. The proportions of the images are 10:4. Any size of this proportion will fit. The recommended sizes for the images are: 350x140 (700x280 for retina).</p>
+                <h4>Blog</h4>
+                <p>The topics preview have svg-animation, where information can not be easily customized. For that reason they have a lot of requirements, such that it is highly recommended to use images of 1080х500px size or larger.</p>
+                <h4>Contacts</h4>
+                <p>Any image size will work here. The recommended sizes are: 240x150 (480х300 for retina).</p>
+                <h4>Images inside text</h4>
+                <ul>
+                    <li><b>class="img-wrapper-right"</b> — wrapper for aligning to the right. It has maximum width of 50%. On small size screens stretches up to 100% width.</li>
+                    <li><b>class="img-wrapper-left"</b> — wrapper for left side alignment. It has maximum width of 50%. On small size screens stretches up to 100% width.</li>
+                    <li><b>class="img-topic-full"</b> — applied directly to the image, contains spaces. Recommended to be used with <i>.img-responsive</i> class.</li>
+                </ul>
+
+                <div id="g0320"></div>
+                <h3><small>03.20</small> Color themes</h3>
+                <ul>The template goes with various color schemes:<br><br>
+                    <li> — <b>Default theme</b> /Red/
+                        <div style="width:300px;height:30px;background:#e84700;margin-bottom:10px;"></div>
+                        <br><br>
+                    </li>
+                    <li>Additional themes:<br><br></li>
+                    <li> — Golden Brown /Brown/
+                        <div style="width:300px;height:30px;background:#955b1c;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Sangria /Red/
+                        <div style="width:300px;height:30px;background:#8f0d07;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Cinnabar /Red/
+                        <div style="width:300px;height:30px;background:#ee3c33;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Sun /Orange/
+                        <div style="width:300px;height:30px;background:#ef762d;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Yellow /Yellow/
+                        <div style="width:300px;height:30px;background:#f2b308;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Lime /Green/
+                        <div style="width:300px;height:30px;background:#accb00;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Olive /Green/
+                        <div style="width:300px;height:30px;background:#458b05;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Mountain Meadow /Green/
+                        <div style="width:300px;height:30px;background:#25c289;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Gulf Stream /Green/
+                        <div style="width:300px;height:30px;background:#7eb7a2;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Elm /Green/
+                        <div style="width:300px;height:30px;background:#278b80;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Summer Sky /Blue/
+                        <div style="width:300px;height:30px;background:#1dafd9;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Boston Blue /Blue/
+                        <div style="width:300px;height:30px;background:#4a99bd;margin-bottom:10px;"></div>
+                    </li>                    
+                    <li> — Cerulean /Blue/
+                        <div style="width:300px;height:30px;background:#0a83b0;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Royal Purple /Violet/
+                        <div style="width:300px;height:30px;background:#753fac;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Amethyst /Violet/
+                        <div style="width:300px;height:30px;background:#8e64cd;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Mulberry /Violet/
+                        <div style="width:300px;height:30px;background:#c43aa5;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Deep Cerise /Violet/
+                        <div style="width:300px;height:30px;background:#e52d9e;margin-bottom:10px;"></div>
+                    </li>
+                    <li> — Ruby /Red/
+                        <div style="width:300px;height:30px;background:#e81259;margin-bottom:10px;"></div>
+                    </li>                    
+                    <li> — Shady Lady /Grey/
+                        <div style="width:300px;height:30px;background:#969696;margin-bottom:10px;"></div>
+                    </li>
+                </ul>
+                <h4>How to install a color scheme</h4>
+                <p>A color scheme can be installed using theme-color.css file. Open it and uncomment any available theme. It will be imported to the whole template including topics and additional pages.</p>
+
+
+                <div id="g04"></div>
+                <h2><small>04.</small> Help & FAQ</h2>
+                <div class="separator-theme-color"></div>
+
+                <div id="g0401"></div>
+                <h3><small>04.01</small> Will embedded Vimeo videos play on mobile devices?</h3>
+                <p>Latest mobile devices can play Vimeo’s SD and HD videos.<br>
+                Plus and PRO members can create mobile versions of their videos from their Global Video Settings. These extra-small videos are compatible with lots of older mobile devices that can’t handle our SD or HD files.</p>
+
+                <div id="g0402"></div>
+                <h3><small>04.02</small> Can I make my embedded vimeo videos default to HD?</h3>
+                Plus and PRO members have the ability to not only embed their videos in glorious HD, but also to default those videos to be viewed in HD. This is a sweet way to make sure that your crisp, high definition videos are seen in their full glory when they're embedded around the interwebs.<br>
+                If you'd like all of your videos to default to HD, just go to your Account Settings and select the Videos tab. Under "What about source files, mobile, and HD embedding?" select "Always play my videos in HD, when possible" and save. Check "Also, apply to existing videos" to do just that.<br>
+                Otherwise, if you have a specific video you want to default to HD mode, head to that video page and click “Settings.” From there, select the Embed tab. Check the box next to "Default this video to HD quality when embedded" and save it like your life depends on it.<br>
+                With this option turned on, the only situation in which your videos will not play in HD is when your viewer manually turns HD off.</p>
+
+                <div id="g0403"></div>
+                <h3><small>04.03</small> Video controls for Vimeo do not work</h3>
+                <p>Video controls for Vimeo work online only. Locally they do not have actions.</p>
+
+                <div id="g0404"></div>
+                <h3><small>04.04</small> How to change the background for Fancybox overlay?</h3>
+                <p>Open <i>common.js</i> and find "// Initialize Fancybox". Change the background color <pre>'background' : 'rgba(255, 255, 255, 0.9)'</pre></p>
+                
+                <div id="g0405"></div>
+                <h3><small>04.05</small> How to change the color of the buttons in Fancybox?</h3>
+                <p>The template goes with a PSD-file <i>fancybox_sprite.psd</i> (in the folder «psd»). Open it in Photoshop and create any color for the buttons. If you are unable to do it yourself, you can choose the most suitable color from the suggested: (<i>images/fancybox/controls-themes</i>) or choose black.</p>
+
+                <div id="g0406"></div>
+                <h3><small>04.06</small> Mousewheel scrolling doesn't work in Fancybox</h3>
+                <p>Mousewheel scrolling not work when navigation arrows are outside of fancybox popup. Learn more about <a href="https://github.com/fancyapps/fancyBox/issues/674">this issue</a></p>
+
+                <div id="g0407"></div>
+                <h3><small>04.07</small> How to change Google Map marker?</h3>
+                <p>Open <b>common.js</b> and find "// Initialize Google Map". In the section "// Marker" change the icon "fa-map-marker":
+                <pre>&lt;div class="gmap-overlay-marker"&gt;&lt;i class="fa fa-map-marker"&gt;&lt;/i&gt;&lt;/div&gt;</pre>
+                To change the color or size please edit style "<i>.gmap-overlay-marker i</i>" in <i>theme.css</i>.</p>
+
+                <div id="g0408"></div>
+                <h3><small>04.08</small> How to change slide transition mode in Bootstrap carousel?</h3>
+                <p>The slider supports two types of animation: fade and slide.<br>
+                By default slide transition goes with horizontal slip. To change the animation, add class <i>.carousel-fade</i> to the main div.</p>
+
+                <div id="g0409"></div>
+                <h3><small>04.09</small> How to start the gallery with only one preview picture?</h3>
+                <p>Here is an example of how to do it: <a href="http://jsfiddle.net/wg4MD/" target="_blank">click here</a><br></p>
+
+                <div id="g0410"></div>
+                <h3><small>04.10</small> Contact form doesn't work?</h3>
+                <p>Both forms are developed in php. To make them work one needs a php-server.<br>
+                If the contact form shows an error, it's most probably an issue with the file path. Try to delete slash from here: html form (action="/php/feedback.php"). Here slash directs to the root catalog. The form will not work also if index.html is not in the root folder.</p>
+
+                <div id="g0411"></div>
+                <h3><small>04.11</small> How to change the email address for the contact form?</h3>
+                <p>Open "contact.php" file and insert your email address here: 
+                    <pre>$emailTo = '<span class="text-theme-color"><b>your@mail.com</b></span>';</pre>
+                </p>
+
+                <div id="g0412"></div>
+                <h3><small>04.12</small> Video doesn't work in Fancybox?</h3>
+                <p>If you use Fancybox media helpers for the video, you'll need a server for that. That might be the reason why video is not found. </p>
+
+                <div id="g0413"></div>
+                <h3><small>04.13</small> Advertising on a YouTube video shows up</h3>
+                <p>Ads can be blocked from the video author's account only.</p>
+
+                <div id="g0414"></div>
+                <h3><small>04.14</small> Some images are hidden with attribute @2x?</h3>
+                <b>retina.js</b> has a issue. Script make width and height of hidden image equal 0. Template goes with a corrected file <b>retina-new.js</b>.
+
+                <div id="g0415"></div>
+                <h3><small>04.15</small> Video doesn't play on iOS devices?</h3>
+                <p>On iOS, playback can only be initiated from a user action. When calling play with the API, somewhere along the line that user action is lost, and triggering the actual video to play doesn't work. We've tried to find a way around it, but so far nothing we've tried has worked.</p>
+
+                <div id="g0416"></div>
+                <h3><small>04.16</small> SVG don't change color depending on the color schemes in the Revolution slider</h3>
+                <p>Color is written in the html file, not in the css.</p>
+                
+                <div id="g0417"></div>
+                <h3><small>04.17</small> How to mute the landing video (vimeo/youtube)?</h3>
+                <h4>Muting Vimeo</h4>
+                <p>In the <i>index-vimeo.html</i> find after tag "body" this script and change number to "0":</p>
+                <pre>
+$('.video-wrapper').fitVids();
+
+(function(window) {
+    window.vimeo_player_loaded = function (player){
+        player.api('setVolume', <span class="text-theme-color">0.5</span>); 
+        player.api('play');
+    }
+})(window); 
+                </pre>
+
+                <h4>Muting YouTube</h4>
+                <p>In the <i>index-youtube.html</i> find after tag "body" this script and UNcomment selected text:</p>
+                <pre>
+$(function(){
+    $('.video-wrapper').fitVids();
+});
+
+<span class="text-theme-color">(function (playerId) {
+    var tag = document.createElement('script');
+    tag.src = "http://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    window.onYouTubePlayerAPIReady = function() {
+        new YT.Player(playerId, {
+            events: {
+                'onReady': function (event) {
+                    event.target.mute();
+                }
+            }
+        });
+    };
+})('yt-player'); // Youtube Iframe Id</span>
+                </pre>
+                <div id="g0418"></div>
+                <h3><small>04.18</small> How to change background image for rainy landing?</h3>
+                <p>In the <i>index-rainy.html</i> find after tag "body" this script and change selected image:</p>
+                <p><strong class="text-theme-color">Note:</strong> some paths couldn't works properly. For more information see documentation for the plugin</p>
+                <pre>
+$(function(){
+    var image = document.getElementById('rainy-image'),
+        parentElement = document.getElementById('cholder');
+
+    image.onload = function(){
+        var engine =  new RainyDay({
+            'image': this,
+            'parentElement': parentElement
+        });
+        engine.trail = engine.TRAIL_DROPS;
+        engine.gravity = engine.GRAVITY_NON_LINEAR;
+        engine.rain([
+            [1, 0, 20],
+            [3, 3, 1]
+        ], 100);
+    };
+    image.crossOrigin = 'anonymous';
+    image.src = '<span class="text-theme-color">/images/your_image.jpg</span>';
+})
+                </pre>
+
+                <div id="g05"></div>
+                <h2><small>05.</small> Updates / Release log</h2>
+                <div class="separator-theme-color"></div>
+                <h3><small>2014.05.11</small> Version 1.2</h3>
+                <ul>
+                    <li><span class="tag-new">new</span>Added Blog page with sidebar</li>
+                    <li>- Reworked pricing tables (Now they are displayed correctly in any browser)</li>
+                    <li>- Updated theme.css, theme-responsive.css and all color themes css files</li>
+                    <li>- Updated html files</li>
+                    <li>- Updated documentation</li>
+                    <li>- Fixed minor bugs</li>
+                </ul>
+
+                <h3><small>2014.04.25</small> Version 1.1</h3>
+                <ul>
+                    <li><span class="tag-new">new</span>Added slider Revolution (new file index-revolution.html)</li>
+                    <li><span class="tag-new">new</span>Added new landing template — Rainyday</li>
+                    <li><span class="tag-new">new</span>Added options for loading muted video (vimeo and youtube)</li>
+                    <li>- Updated theme.css, theme-responsive.css and all color themes css files.</li>
+                    <li>- Re-written some classes: change class <i>.video-landing-*</i> to >> <i>.element-landing-*</i>.</li>
+                    <li>- Updated html files</li>
+                    <li>- Updated documentation</li>
+                </ul>
+
+                <div id="g06"></div>
+                <h2><small>06.</small> Credits</h2>
+                <div class="separator-theme-color"></div>
+                <p><a href="http://artrow.net/">ArtRow</a>. 2014, © All rights reserved.</p>
+                <p>Special thanks to <a href="http://kuznetsov.net.ru/">Dmitry Kuznetsov</a>, <a href="https://twitter.com/nina_gorby">Nina Gorbunova</a>.</p>
+                <h3>Template live preview credits</h3>
+                <ul>Photos by:
+                    <li><a href="http://www.flickr.com/photos/astragony/">Daniel Zedda</a> (<a href="http://creativecommons.org/licenses/by/2.0/">License</a>)</li>
+                </ul>
+                <ul>Illustrations by:
+                    <li><a href="http://grivetart.deviantart.com/">Grivetart</a></li>
+                    <li><a href="http://peteamachree.deviantart.com/">Pete Amachree</a></li>
+                    <li><a href="http://cat-meff.deviantart.com/">cat-meff</a></li>
+                    <li><a href="http://seamonkey1.deviantart.com/">SeaMonkey1</a></li>
+                </ul>
+                <ul>Videos:
+                    <li><a href="http://vimeo.com/20249835">Vimeo</a></li>
+                    <li><a href="http://www.youtube.com/watch?v=eP2VWNtU5rw">YouTube</a></li>
+                </ul>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,250 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MildaSoft.master.cs" Inherits="kuxan.frm.master.masterMilda.MildaSoft" %>
+
+<html lang="zxx">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJG5V9W6LR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SJG5V9W6LR');
+    </script>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Momo - kuxan</title>
+
+    <meta name="keywords" content="Milda - juegos entre amigos " />
+    <meta name="description" content="MILDA - Descubre el nivel de compatibilidad con tus amigos">
+    <meta name="author" content="kuxan.co">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,900%7COpen+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
+    <link href="../../../assets/assetsMilda/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/linear-icons/css/linear-icons.min.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/master/style-switcher/bootstrap-colorpicker/css/bootstrap-colorpicker.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../../assets/images/iconMomo.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../../assets/images/iconMomo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../../assets/images/iconMomo.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/images/iconMomo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../../assets/images/iconMomo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../../assets/images/iconMomo.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../../assets/images/iconMomo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../../assets/images/iconMomo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/images/iconMomo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../../assets/images/iconMomo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/images/iconMomo.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../../assets/images/iconMomo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/images/iconMomo.png">
+    <link rel="manifest" href="../../../assets/assetsMilda/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../../assets/images/iconMomo.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../../../assets/assetsMilda/css/theme.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/css/theme-elements.css">
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="../../../assets/assetsMilda/vendor/rs-plugin/css/navigation.css">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="../../../assets/assetsMilda/css/skins/default.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="../../../assets/assetsMilda/css/custom.css">
+
+
+    <!-- Head Libs -->
+    <script src="../../../assets/assetsMilda/vendor/modernizr/modernizr.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <div class="body">
+
+        <header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 70}">
+            <div class="header-body">
+                <div class="header-container" style="height: 70px;">
+                    <div class="header-row">
+                        <div class="header-column justify-content-start">
+                            <div class="header-logo px-3">
+                                <a href="../../frm/frmApps/frmDefault.aspx">
+                                    <img src="../../../imgMilda/Momo2.png" width="100" height="30" alt="MomoLogo" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-column justify-content-center">
+                            <div class="header-nav justify-content-lg-center">
+                                <div class="header-nav-main header-nav-main-dark header-nav-main-effect-1 header-nav-main-sub-effect-1">
+                                    <nav class="collapse">
+                                        <ul class="nav flex-column flex-lg-row" id="mainNav">
+                                            <li class="dropdown dropdown-mega">
+                                                <a class="dropdown-item dropdown-toggle" href="../../frm/frmApps/frmDefault.aspx">Home
+                                                </a>
+
+                                            </li>	
+
+                                            <li class="dropdown dropdown-mega">
+                                                <a class="dropdown-item dropdown-toggle active" href="../../frm/frmApps/frmMomo.aspx">Momo
+                                                </a>
+
+                                            </li>
+                                            <li class="dropdown dropdown-mega">
+                                                <a class="dropdown-item dropdown-toggle" href="../../frm/frmApps/frmMildaLove.aspx">Milda
+                                                </a>
+
+                                            </li>
+                                            <li class="dropdown dropdown-mega">
+                                                <a class="dropdown-item dropdown-toggle" href="../../frm/frmApps/frmKuxanNote.aspx">Kuxan Note
+                                                </a>
+
+                                            </li>
+                                            <li class="dropdown dropdown-mega">
+                                                <a class="dropdown-item dropdown-toggle" href="../../frm/frmApps/frmChibcha.aspx">Chibcha
+                                                </a>
+
+                                            </li>
+                                         <%--   <li class="dropdown dropdown-mega dropdown-mega-style-2">
+                                                <a class="dropdown-item dropdown-toggle" href="../../frm/frmApps/frmDownload.aspx">Descargas
+                                                </a>
+                                            </li>--%>
+                                            <%--<li class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" href="../../frm/frmApps/frmContacto.aspx">Contactenos
+                                                </a>
+                                            </li>--%>
+
+
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-column justify-content-end">
+                            <div class="header-button d-none d-sm-flex mx-3">
+                                <a href="../../frm/logica/default.aspx" class="btn btn-outline btn-rounded btn-primary btn-4 btn-icon-effect-1">
+                                    <span class="wrap">
+                                        <span>KUXAN</span>
+                                        <i class="fas fa-pen"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <button class="header-btn-collapse-nav mx-3" data-toggle="collapse" data-target=".header-nav-main nav">
+                                <span class="hamburguer">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                                <span class="close">
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div role="main" class="main" style="min-height: 500px !important;">
+
+            <form runat="server">
+                <asp:ScriptManager runat="server" EnablePartialRendering="true" EnableScriptGlobalization="true" ID="scriptManagerGeneral"></asp:ScriptManager>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </form>
+        </div>
+
+        <footer id="footer" class="mt-0">
+            <div class="footer-copyright bg-light mt-0">
+                <div class="container mt-3">
+
+                    <div class="row text-center">
+                        <div class="col">
+                            <p>KUXAN ©<asp:Label ID="lblCurrentYear" Text="" runat="server" />. All Rights Reserved</p>
+                        </div>
+                        <div class="col">
+                            <ul class="nav flex-column flex-lg-row">
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle" href="../../frm/termAndCond/frmTermsOfUseMomo.aspx">Conditions of Service
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle" href="../../frm/termAndCond/frmPrivacidadMomo.aspx">Privacy Policy
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Vendor -->
+    <script src="../../../assets/assetsMilda/vendor/jquery/jquery.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/common/common.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/jquery.validation/jquery.validate.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/vide/jquery.vide.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/vivus/vivus.min.js"></script>
+    <script src="../../../assets/assetsMilda/master/style-switcher/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="../../../assets/assetsMilda/js/theme.js"></script>
+
+    <!-- Current Page Vendor and Views -->
+    <script src="../../../assets/assetsMilda/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="../../../assets/assetsMilda/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- Theme Custom -->
+    <script src="../../../assets/assetsMilda/js/custom.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script async src="../../../assets/assetsMilda/js/theme.init.js"></script>
+
+    <!-- Examples -->
+    <script src="../../../assets/assetsMilda/js/examples/examples.landing.js"></script>
+
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+			ga('create', 'UA-12345678-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		 -->
+
+</body>
+</html>

@@ -1,0 +1,357 @@
+/* Color Theme - Sun /Orange/
+
+color - #ef762d
+
+/* 01 MAIN STYLES
+****************************************************************************************************/
+a {
+  color: #ef762d;
+}
+::selection {
+  color: #fff;
+  background: #ef762d;
+}
+::-moz-selection {
+  color: #fff;
+  background: #ef762d;
+}
+/* Grid */
+.section-description-theme-separator {
+  border-top: 1px solid #ef762d;
+}
+/* Typography */
+.text-theme-color {
+  color: #ef762d;
+}
+/* logo */
+.logo span {
+  color: #ef762d;
+}
+/* 02 NAVIGATION
+****************************************************************************************************/
+.gn-menu-wrapper {
+  border-top: 1px solid #ef762d;
+}
+/* nav menu */
+.gn-menu {
+  border-bottom: 5px solid #ef762d;
+}
+.gn-selector {
+  background: #ef762d;
+}
+.gn-selector:after,
+.gn-selector::after {
+  border-left: 10px solid #ef762d;
+}
+input.gn-search {
+  color: #ef762d;
+}
+/* icons on navbar */
+.icon-nav:hover {
+  background: #ef762d;
+  color: #fff;
+}
+/* placeholder */
+.gn-search::-webkit-input-placeholder {
+  color: #ef762d
+}
+.gn-search:-moz-placeholder {
+  color: #ef762d
+}
+.gn-search::-moz-placeholder {
+  color: #ef762d
+}
+.gn-search:-ms-input-placeholder {
+  color: #ef762d
+}
+.no-touch .gn-icon-menu i {
+  color: #ef762d;
+}
+.no-touch .gn-icon-menu.gn-selected:hover i,
+.gn-icon-menu.gn-selected i {
+  color: #fff;
+}
+.no-touch .gn-icon-menu.gn-selected:hover,
+.gn-icon-menu.gn-selected  {
+  background: #ef762d;
+  color: #fff;
+}
+
+/* 03. CAROUSELS (SLIDERS)
+****************************************************************************************************/
+.carousel-indicators li {
+  border: 1px solid #ef762d;
+}
+.carousel-indicators .active {
+  background-color: #ef762d;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ef762d;
+}
+.carousel-caption a:hover {
+  color: #ef762d;
+}
+.slider-landing-left-wrapper:hover .slider-landing-left:after {
+  border-bottom: 100px solid #ef762d;
+}
+.slider-landing-right-wrapper:hover .slider-landing-right:after {
+  border-right: 400px solid #ef762d;
+}
+/* Chevron for landing slider*/
+.btn-welcome:hover span {
+  background: #ef762d;
+  border: 1px solid #ef762d;
+}
+/* Video Landing */
+.element-landing-left:after {
+  border-bottom: 100px solid #ef762d;
+}
+.element-landing-right:after {
+
+  border-right: 400px solid #ef762d;
+}
+/* Video Controls */
+.video-controls a:hover {
+  background: #ef762d;
+}
+/* Carousel-03 (Clients) */
+/* Outside controls */
+.outside-controls-for-slider a:hover,
+.outside-controls-for-slider a.hover {
+  background: #ef762d;
+}
+
+/* 04 BUTTONS
+****************************************************************************************************/
+/* Button primary */
+.btn-primary {
+  background-color: #ef762d;
+  border-color: #ef762d;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #ef762d;
+  border-color: #ef762d;
+}
+figcaption .btn-primary:hover,
+figcaption .btn-primary:focus,
+figcaption .btn-primary:active,
+figcaption .btn-primary.active {
+  color: #ef762d;
+  background-color: #fff;
+  border-color: #fff;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #ef762d;
+  border-color: #ef762d;
+  opacity: 0.5;
+}
+.btn-primary .badge {
+  color: #ef762d;
+  background-color: #fff;
+}
+
+/* 05 SVG (SVG ANIMATION)
+****************************************************************************************************/
+/* Common styles */
+/* Style for SVG */
+.svg-animation svg path {
+  fill: #ef762d;
+}
+
+/* 06 SECTIONS + SVG
+****************************************************************************************************/
+/* Features */
+.hover-listener-for-icons:hover .fa-circle {
+  color: #ef762d;
+}
+/* About Us + SVG */
+.about-social-icons li {
+  color: #ef762d;
+}
+/* About Us. SVG */
+.about-social-icons a:hover .fa-inverse {
+  color: #ef762d;
+}
+/* Portfolio. SVG */
+.portfolio-thumb-svg figcaption a:hover .fa-inverse {
+  color: #ef762d;
+}
+/* Portfolio-invert */
+.portfolio-thumb-svg-invert svg path {
+  fill: #000;
+}
+.portfolio-thumb-svg-invert .open-image {
+  color: #ef762d;
+}
+.portfolio-thumb-svg-invert figcaption a:hover .fa-inverse {
+  color: #ef762d;
+}
+/* Pricing tables */
+.pricing-title {
+  color: #ef762d;
+}
+.pricing-stuff li:before {
+  color: #ef762d;
+}
+.pricing-stuff li:hover {
+  background: #ef762d !important;
+}
+/* Blog + SVG */
+.topic-date {
+  color: #fff;
+}
+/* Blog-invert */
+.blog-topic-svg-invert .topic-date {
+  border-color: #ef762d;
+}
+.blog-topic-svg-invert svg path {
+  fill: #000;
+}
+/* blog-topic */
+.topic-title-date,
+.topic-title-comments {
+  color: #ef762d;
+}
+/* Contacts */
+.nav-tabs-circle > li > a:hover {
+  background-color: #ef762d;
+}
+.nav-tabs-circle > li.active > a,
+.nav-tabs-circle > li.active > a:hover,
+.nav-tabs-circle > li.active > a:focus {
+  background-color: #ef762d;
+}
+.gmap-overlay-marker i {
+  color: #ef762d !important;
+}
+/* Feedback, Subscribe (Forms) */
+.form-control:focus {
+  border-color: #ef762d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(239, 118, 45, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(239, 118, 45, .6);
+}
+.success-message {
+  background: #ef762d;
+}
+.has-error {
+  color: #ef762d;
+}
+/* Follow us */
+.follow-us li:hover {
+  background: #ef762d;
+}
+/* Footer copyrights */
+.footer-navigation li a:hover {
+  color: #ef762d;
+}
+
+/* 07 Additional elements
+****************************************************************************************************/
+/* Separators */
+.separator-theme-color {
+  background: #ef762d;
+}
+
+/* Quotes */
+.quote-full {
+  width: auto;
+}
+
+.quote-text:before,
+.quote-text:after {
+  background: #ef762d;
+}
+/* Tooltip */
+.tooltip-inner {
+  background-color: #ef762d;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #ef762d;
+}
+.tooltip.top-left .tooltip-arrow {
+  border-top-color: #ef762d;
+}
+.tooltip.top-right .tooltip-arrow {
+  border-top-color: #ef762d;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #ef762d;
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #ef762d;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #ef762d;
+}
+.tooltip.bottom-left .tooltip-arrow {
+  border-bottom-color: #ef762d;
+}
+.tooltip.bottom-right .tooltip-arrow {
+  border-bottom-color: #ef762d;
+}
+/* Detect mobile button */
+.global-mobile-on .detect-mobile {
+  background: #ef762d;
+}
+/* revolution navigation */
+.tp-bullets.simplebullets.goddess .bullet {
+  border: 1px solid #ef762d;
+}
+.tp-bullets.simplebullets.goddess .bullet.selected {
+  background: #ef762d;
+}
+/* Blog Section */
+.searchForm .btn-search {
+  color: #ef762d;
+}
+ul.tagList li {
+  background: #ef762d;
+}
+/* Responsive */
+@media (max-width: 639px) {
+  .carousel-02 .carousel-caption {
+    background: #ef762d;
+  }
+}
+@media (max-width: 479px) {
+  .reply:before {
+    background: #ef762d;
+  }
+}
+/* Fancybox elements
+****************************************************************************************************/
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background-image: url('../../images/fancybox/controls-themes/sun/fancybox_sprite.png');
+}
+.fancybox-title-float-wrap .child {
+  background: #ef762d;
+}
+/*Retina graphics!*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+     only screen and (min--moz-device-pixel-ratio: 1.5),
+     only screen and (min-device-pixel-ratio: 1.5){
+
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url('../../images/fancybox/controls-themes/sun/fancybox_sprite@2x.png');
+    background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
+  }
+}

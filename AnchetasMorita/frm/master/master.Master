@@ -1,0 +1,715 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="kuxan.frm.master.master" %>
+
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Anchetas Morita</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="description" content="Default Description">
+<meta name="keywords" content="fashion, store, E-commerce">
+<meta name="robots" content="*">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../../img/logo.ico" type="image/x-icon">
+<link rel="shortcut icon" href="#" type="image/x-icon">
+
+
+
+<!-- CSS Style -->
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/font-awesome.css" media="all">
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/revslider.css" >
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/jquery.mobile-menu.css">
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheet/responsive.css" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        .auto-style1 {
+            left: 0px;
+            top: 0px;
+            height: 0px;
+        }
+        .auto-style2 {
+            position: relative;
+            height: 0px;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            margin: auto;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<div id="page">
+    <form id="form2" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true" EnableScriptGlobalization="true">
+            
+
+        </asp:ScriptManager> 
+        <header>
+
+            <div id="header">
+                <div class="header-container container">
+                    <div class="row">
+                        <div class="logo">
+                          <a href="../../frm/logica/frmDefault.aspx">
+                            <asp:Image runat="server" ImageUrl ="../../img/logo.png" Width="70px" Style=" border-radius:150px;" />
+                          </a>
+                        </div>
+                        <div class="fl-nav-menu">
+
+                            <nav class="auto-style1">
+                                <div class="mm-toggle-wrap">
+                                    <div class="mm-toggle"><i class="icon-align-justify"></i><span class="mm-label">Menu</span> </div>
+                                </div>
+                                <div class="auto-style2">
+                                    <!-- BEGIN NAV -->
+                                    <ul id="nav" class="hidden-xs">
+
+                                        <li class=""> <a class="level-top" href="../../frm/logica/frmDefault.aspx"><span>Inicio</span></a></li>
+                                        <%--<li class="mega-menu">
+                                            <a class="level-top" href="../../frm/logica/frmDesayunos.aspx"><span>Desayunos</span></a>
+                                            <%--<div class="level0-wrapper dropdown-6col" style="left: 0px; display: none;">
+                                                <div class="container">
+                                                    <div class="level0-wrapper2">
+                                                        <div class="col-1">
+                                                            <div class="nav-block nav-block-center">
+                                                                <!--mega menu-->
+                                                                <ul class="level0">
+                                                                    <li class="level3 nav-6-1 parent item">
+                                                                        <a href="Desayunos.aspx"><span>Mesa para desayunos‎</span></a>
+                                                                        <!--sub sub category-->
+                                                                        <ul class="level1">
+                                                                            <li class="level2 nav-6-1-1"> <a href="Desayunos.aspx"><span>Desayuno Americano</span></a></li>
+                                                                            <!--level2 nav-6-1-1-->
+                                                                            <li class="level2 nav-6-1-1"> <a href="Desayunos.aspx"><span>Desayuno Light</span></a> </li>
+                                                                            <!--level2 nav-6-1-1-->
+                                                                            
+                                                                        </ul>
+                                                                        <!--level1-->
+                                                                        <!--sub sub category-->
+                                                                   </li>
+                                                                </ul>
+                                                                <!--level0-->
+                                                            </div>
+                                                            <!--nav-block nav-block-center-->
+                                                        </div>
+                                                        <!--col-1-->
+                                                    </div>
+                                                    <!--level0-wrapper2-->
+                                                </div>
+                                                <!--container-->
+                                            </div>
+                                            <!--level0-wrapper dropdown-6col-->
+                                            <!--mega menu-->
+                                        </li>
+                                        <li class="mega-menu">
+                                            <a class="level-top" href="../../frm/logica/frmAnchetasCumpleaños.aspx"><span>Anchetas Cum‎pleaños</span></a>
+                                            <div class="level0-wrapper dropdown-6col" style="left: 0px; display: none;">
+                                                <div class="container">
+                                                    <div class="level0-wrapper2">
+                                                        <div class="nav-block nav-block-center">
+                                                            <!--mega menu-->
+                                                            <ul class="level0">
+                                                                <li class="level3 nav-6-1 parent item">
+                                                                    <a href="AnchetasCumpleaños.aspx"><span>Cajas</span></a>
+                                                                    <!--sub sub category-->
+                                                                    <ul class="level1">
+                                                                        <li class="level2 nav-6-1-1"> <a href="AnchetasCumpleaños.aspx"><span>Caja ponque fotos</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="AnchetasCumpleaños.aspx"><span>Caja ponque rosas</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="AnchetasCumpleaños.aspx"><span>Caja vaso pitillo</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="AnchetasCumpleaños.aspx"><span>Caja 3 cervecitas coronitas</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="AnchetasCumpleaños.aspx"><span>Caja 2 cervezas corona</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                    </ul>
+                                                                    <!--level1-->
+                                                                    <!--sub sub category-->
+                                                                </li>
+                                                                <!--level3 nav-6-1 parent item-->
+                                                                
+                                                            </ul>
+                                                            <!--level0-->
+                                                        </div>
+                                                        <!--nav-block nav-block-center-->
+                                                        
+                                                    </div>
+                                                    <!--level0-wrapper2-->
+                                                </div>
+                                                <!--container-->
+                                            </div>
+                                            <!--level0-wrapper dropdown-6col-->
+                                            <!--mega menu-->
+                                        </li>
+                                        <li class="mega-menu">
+                                            <a class="level-top" href="../../frm/logica/frmCualquierOcasion.aspx"><span>Cualquier Ocasión</span></a>
+                                            <div class="level0-wrapper dropdown-6col" style="left: 0px; display: none;">
+                                                <div class="container">
+                                                    <div class="level0-wrapper2">
+                                                        <div class="nav-block nav-block-center">
+                                                            <!--mega menu-->
+
+                                                            <ul class="level0">
+                                                                <li class="level3 nav-6-1 parent item">
+                                                                    <a href="CualquierOcasion.aspx"><span>Bandejas</span></a>
+                                                                    <!--sub sub category-->
+                                                                    <ul class="level1">
+                                                                        <li class="level2 nav-6-1-1"> <a href="CualquierOcasion.aspx"><span>Bandeja table de quesos</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="CualquierOcasion.aspx"><span>Bandeja para ella</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                    </ul>
+                                                                    <!--level1-->
+                                                                    <!--sub sub category-->
+                                                                </li>
+                                                                <!--level3 nav-6-1 parent item-->
+                                                            </ul>
+                                                            <!--level0-->
+                                                        </div>
+                                                        <!--nav-block nav-block-center-->
+                                                    </div>
+                                                    <!--level0-wrapper2-->
+                                                </div>
+                                                <!--container-->
+                                            </div>
+                                            <!--level0-wrapper dropdown-6col-->
+                                            <!--mega menu-->
+                                        </li>
+                                        <li class="mega-menu">
+                                            <a class="level-top" href="../../frm/logica/frmNiños.aspx" id="Niños"><span>Niños</span></a>
+                                            <div class="level0-wrapper dropdown-6col" style="left: 0px; display: none;">
+                                                <div class="container">
+                                                    <div class="level0-wrapper2">
+                                                        <div class="nav-block nav-block-center">
+                                                            <!--mega menu-->
+
+                                                            <ul class="level0">
+                                                                <li class="level3 nav-6-1 parent item">
+                                                                    <a href="Niños.aspx"><span>Bandejas para niños</span></a>
+                                                                    <!--sub sub category-->
+                                                                    <ul class="level1">
+                                                                        <li class="level2 nav-6-1-1"> <a href="Niños.aspx"><span>Bandeja muñeco de peluche con oreo</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="Niños.aspx"><span>Bandeja muneco de peluche con piazza</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                    </ul>
+                                                                    <!--level1-->
+                                                                    <!--sub sub category-->
+                                                                </li>
+                                                                <!--level3 nav-6-1 parent item-->
+                                                            </ul>
+                                                            <!--level0-->
+                                                        </div>
+                                                        <!--nav-block nav-block-center-->
+                                                    </div>
+                                                    <!--level0-wrapper2-->
+                                                </div>
+                                                <!--container-->
+                                            </div>
+                                            <!--level0-wrapper dropdown-6col-->
+                                            <!--mega menu-->
+                                        </li>--%>
+                                        <li class="fl-custom-tabmenulink mega-menu">
+                                            <a class="fl-custom-tabmenulink mega-menu" href="../../frm/carro/frmGeneral.aspx?cod=0" id="ListaProductos"><span>Nuestros Productos</span></a>
+                                             <div class="level0-wrapper fl-custom-tabmenu" style="left: 0px; display:none;">
+                                            <div class="container">
+                                              <div class="header-nav-dropdown-wrapper clearer">
+
+                                                  <asp:Repeater ID="rptMenuProductos" runat="server" DataSourceID="SqlDTCategorias" EnableViewState="true" >
+                                                       <ItemTemplate>
+
+                                                <div class="grid12-3" >
+                                                <a href= '<%# "../../frm/carro/frmGeneral.aspx?cod="+Eval("ID_TIPO_PRODUCTO") %>'>
+                                                  <img src='<%# Eval("URL_IMAGEN").ToString().Replace("~","../../") %>' alt="custom-image" >
+                                                    <br />
+                                                    <asp:Label runat="server" ID="lblCirculo" Text='<%# Eval("NOMBRE_TIPO_PRODUCTO") %>' CssClass="label-producto"></asp:Label>
+                                                    </a>
+                                                </div>
+                                                
+                                                    </ItemTemplate>
+                                                </asp:Repeater>
+
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        
+
+                                         <asp:PlaceHolder runat="server" ID="panelIniciarSesion">
+                                        <li class="usuario_visible" runat="server" id="LiOcultable">
+                                            <asp:HyperLink runat="server" NavigateUrl="~/frm/logica/frmLogin.aspx" id="lnkIniciarSesion" Text="Iniciar Sesión" CssClass="level-top" ></asp:HyperLink> 
+                                            <%--<a class="level-top"  id="Administracion2"><span>Iniciar Sesión</span></a>--%>
+
+                                        </li>
+                                         </asp:PlaceHolder>
+                                         <asp:PlaceHolder runat="server" ID="pnlMenuAdministracion">
+                                        <li class="mega-menu">  
+                                            <a class="level-top"  id="Administracion"><span>Administrar</span></a>
+                                            <div class="level0-wrapper menu-gestion dropdown-6col" style="display: none;">
+                                                <div class="container">   
+                                                    <div class="level0-wrapper2">
+                                                        <div class="nav-block nav-block-center">
+                                                            <!--mega menu-->
+                                                            <ul class="level0">
+                                                                <li class="level3 nav-6-1 parent item">
+                                                                    <a><span>Administracion</span></a>
+                                                                    <!--sub sub category-->
+                                                                    <ul class="level1">
+                                                                        <li class="level2 nav-6-1-1"> <a href="../../frm/logica/frmGT_Usuarios.aspx"><span>Gestion de usuarios</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="../../frm/logica/frmGT_Anchetas.aspx"><span>Gestion de productos</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="../../frm/logica/frmGT_Pedidos.aspx"><span>Gestion de pedidos</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                        <li class="level2 nav-6-1-1"> <a href="../../frm/logica/frmGT_TipoProducto.aspx"><span>Gestion Tipo Productos</span></a> </li>
+                                                                        <!--level2 nav-6-1-1-->
+                                                                    </ul>
+                                                                    <!--level1-->
+                                                                    <!--sub sub category-->
+                                                                </li>
+                                                                <!--level3 nav-6-1 parent item-->
+                                                            </ul>
+                                                               
+                                                            <!--level0-->
+                                                        </div>
+                                                        <!--nav-block nav-block-center-->
+                                                    </div>
+                                                    <!--level0-wrapper2-->
+                                                </div>
+                                                <!--container-->
+                                            </div>
+                                            <!--level0-wrapper dropdown-6col-->
+                                            <!--mega menu-->
+                                        </li>
+                                        </asp:PlaceHolder>
+                                         <asp:PlaceHolder runat="server" ID="pnlMenuUsuario">
+
+                        <div class="fl-header-right" runat="server" id="DivOculto"> 
+                         
+                            <div   class="fl-links" id="OtroDiv">
+                                <div class="no-js">
+                                    <a title="Menu" class="clicker"></a>
+                                    <div class="fl-nav-links" runat="server">
+                                        
+                                        <ul class="links">
+                                            
+                                            <li style="color: white">Bienvenido <%= Session["NOMBRE_USUARIO"]%> <%= Session["APELLIDOS_USUARIO"]%></li>
+                                            <li><a style="color: white" href="../logica/frmEditarUsuario.aspx?cod=<%= Session["ID_USUARIO"]%>" title="Editar mi cuenta">Editar mi cuenta</a></li>
+                                            <li><a style="color: white" href="../../frm/logica/frmMisPedidos.aspx?cod=<%= Session["ID_USUARIO"]%>" title="Mis pedidos">Mis pedidos</a></li>
+                                            <%--<li><a href="#" title="">Lista de deseos</a></li>--%>
+                                            <li><a style="color: white" href="../../frm/logica/frmCambiarContraseña.aspx?cod=<%= Session["ID_USUARIO"]%>" title="cambiar Contraseña">Cambiar contraseña</a></li> 
+                                            <li><a style="color: white" href="../../frm/logica/frmCerrarSesion.aspx" title="Cerrar sesión">Cerrar sesión</a></li>
+                                            <%--<li class="last" id="liOculto"><a href="/frm/logica/frmLogin.aspx" title="Iniciar sesión"><span>Iniciar sesión</span></a></li>--%>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fl-cart-contain">
+                                <div class="mini-cart">
+                                    <div class="basket"><a href="../../frm/carro/frmMicarro.aspx?cod=<%= Session["ID_USUARIO"]%>"></a></div>
+                                    <!--fl-mini-cart-content-->
+                                </div>
+                            </div>
+                            
+                            <!--mini-cart-->
+                            <%--<div class="collapse navbar-collapse">
+                                  <form class="navbar-form" role="search">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Buscar">
+                                      <span class="input-group-btn">
+                                      <button type="submit" class="search-btn"> <span class="glyphicon glyphicon-search"> <span class="sr-only">Buscar</span> </span> </button>
+                                      </span> </div>
+                                  </form>
+                                </div>--%>
+                            <!--links-->
+                        </div>
+                            </asp:PlaceHolder>
+                                    </ul>
+                                    
+                                    <!--nav-->
+
+                                </div>
+                            </nav>
+                            
+                        
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="contenthead" runat="server">
+            </asp:ContentPlaceHolder>
+        </header>
+        <!--container-->
+
+
+        <div class="content">
+
+
+            <div class="our-features-box wow bounceInUp animated animated">
+                <div class="container" style="min-height:400px !important;">
+                    <asp:ContentPlaceHolder ID="contenidoGeneral" runat="server">
+  </asp:ContentPlaceHolder>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- For version 1,2,3,4,6 -->
+
+        <footer>
+            <!-- BEGIN INFORMATIVE FOOTER -->
+            <div class="footer-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 col-lg-4">
+                            <div class="co-info">
+                                <div>
+                                    <a href="../../frm/logica/frmDefault.aspx">
+                                    <asp:Image runat="server" Width="80px" ImageUrl="../../img/logofooter.jpg" />
+                                     </a>
+                                </div>
+                                <address>
+                                    <div><em class="icon-location-arrow"></em> <span>Bogota Colombia</span></div>
+                                    <div> <em class="icon-mobile-phone"></em><span> Telefono de contacto 301 7892460/305 8199468 </span></div>
+                                    <div> <em class="icon-envelope"></em><span>info@anchetasmorita.com</span></div>
+                                </address>
+                                <div class="social">
+                                    <ul class="link">
+                                        <li class="fb pull-left"><a target="_blank" rel="nofollow" 
+                                            href="https://www.facebook.com/Anchetas-Morita-102966108123928" title="Facebook"></a></li>
+                                        <li class="youtube pull-left"><a target="_blank" rel="nofollow" 
+                                            href="https://www.instagram.com/anchetasmorita_/" title="Instagram"></a></li>
+                                        <li class="youtube2 pull-left"><a target="_blank" rel="nofollow" 
+                                            href="https://api.whatsapp.com/send?phone=573017892460" title="WhatsApp"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-8 col-xs-12 col-lg-8">
+                            <div class="footer-column">
+                                <%--<h4>Quick Links</h4>
+                                <ul class="links">
+                                    <li><a title="Where is my order?" href="#">Estado de mi pedido</a></li>
+                                    <li class="last"><a title="Return policy" href="#">Politica de retorno</a></li>
+                                </ul>--%>
+                            </div>
+                            <div class="footer-column">
+                          <%--      <h4>Style Advisor</h4>
+                                <ul class="links">
+                                    <li class="first"><a title="Your Account" href="#">Your Account</a></li>
+                                    <li><a title="Information" href="#">Information</a></li>
+                                    <li><a title="Addresses" href="#">Addresses</a></li>
+                                    <li><a title="Addresses" href="#">Discount</a></li>
+                                    <li><a title="Orders History" href="#">Orders History</a></li>
+                                    <li class="last"><a title=" Additional Information" href="#"> Additional Information</a></li>
+                                </ul>--%>
+                            </div>
+                            <div class="footer-column">
+                                <h4>Informacion</h4>
+                                <ul class="links">
+                                    <li><a href="#" onclick="mostrarTerminos();return false;">Terminos y condiciones</a></li>
+                                    <li><a href="#" onclick="mostrarAcerca();return false;">Acerca de Anchetas Morita</a></li>
+                                    <li><a  href="../../frm/logica/frmcontactenos.aspx">Contactenos</a></li>
+                                 </ul>
+                            </div>
+
+                        </div>
+
+                        <!--col-sm-12 col-xs-12 col-lg-8-->
+                        <!--col-xs-12 col-lg-4-->
+                    </div>
+                    <!--row-->
+
+                </div>
+                <!--container-->
+            </div>
+            <!--footer-inner-->
+
+            <%--<div class="footer-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="row"> </div>
+                    </div>
+                    <!--row-->
+                </div>
+                <!--container-->
+            </div>--%>
+            <!--footer-middle-->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 coppyright">© 2020 Anchetas Morita. todos los derechos reservado.</div>
+                    </div>
+                    <!--row-->
+                </div>
+                <!--container-->
+            </div>
+            <!--footer-bottom-->
+            <!-- BEGIN SIMPLE FOOTER -->
+        </footer>
+        <!-- End For version 1,2,3,4,6 -->
+
+    </form> 
+</div>
+<!--page-->
+<!-- Mobile Menu-->
+
+<div id="mobile-menu">
+  <ul>
+    <li>
+      <div class="home"><a href="../../frm/logica/frmDefault.aspx"><i class="icon-home"></i>Inicio</a> </div>
+    </li>  
+    <asp:PlaceHolder runat="server" ID="panelNombreUsuarioMobile">
+          <li><a>Bienvenido <%= Session["NOMBRE_USUARIO"]%> <%= Session["APELLIDOS_USUARIO"]%></a></li>
+      </asp:PlaceHolder>
+    <li><a href="../../frm/carro/frmGeneral.aspx?cod=0">Nuestros Productos</a></li>
+      <asp:PlaceHolder runat="server" ID="panelAdministracionMobile">
+    <li><a>Administracion</a>
+      <ul>
+        <li> <a href="../../frm/logica/frmGT_Usuarios.aspx">Gestion de usuarios</a></li>
+        <li> <a href="../../frm/logica/frmGT_Anchetas.aspx">Gestion de productos</a></li>
+        <li> <a href="../../frm/logica/frmGT_Pedidos.aspx">Gestion de pedidos</a></li>
+        <li> <a href="../../frm/logica/frmGT_TipoProducto.aspx">Gestion Tipo Productos</a></li>
+      </ul>
+    </li>
+       </asp:PlaceHolder>
+    <asp:PlaceHolder runat="server" ID="PanelMenuUsuarioMobile">
+    <li><a>Opciones</a>
+      <ul>
+        <li> <a href="../logica/frmEditarUsuario.aspx?cod=<%= Session["ID_USUARIO"]%>">Editar mi cuenta</a></li>
+        <li> <a href="../../frm/logica/frmMisPedidos.aspx?cod=<%= Session["ID_USUARIO"]%>">Mis pedidos</a></li>
+        <li> <a href="../../frm/logica/frmCambiarContraseña.aspx?cod=<%= Session["ID_USUARIO"]%>">Cambiar contraseña</a></li>
+      </ul>
+    </li>
+    </asp:PlaceHolder>
+    <li><a href="../../frm/logica/frmcontactenos.aspx">Contactanos</a></li>
+    <asp:PlaceHolder runat="server" ID="panelSesionMobile">
+    <li><a href="../../frm/logica/frmLogin.aspx">Iniciar Sesión</a></li>
+      </asp:PlaceHolder>
+      <asp:PlaceHolder runat="server" ID="panelCerrarSesionMobile">
+    <li><a href="../../frm/logica/frmCerrarSesion.aspx">Cerrar Sesión</a></li>
+      </asp:PlaceHolder>
+  </ul>
+</div>
+
+      
+
+<!-- JavaScript -->
+<script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../assets/js/parallax.js"></script>
+<script type="text/javascript" src="../../assets/js/revslider.js"></script>
+<script type="text/javascript" src="../../assets/js/common.js"></script>
+<script type="text/javascript" src="../../assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="../../assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../../assets/js/jquery.mobile-menu.min.js"></script>
+<script src="../../assets/js/sweetalert.min.js"></script>
+
+    <script type="text/javascript">
+        function configurarToday(sender, args) {
+            var nombre = "#" + sender._id + "_today";
+            /*  alert(nombre);                */
+            var panel = $(nombre);
+            var text = panel.html();
+            panel.html(text.replace("Today", "Hoy"));
+        }
+
+
+           var qc = 0;
+           function clickOnce(btn) {
+               btn.value = "Procesando...";
+               //este no funciona si esta dentro de un update panel
+               qc = qc + 1;
+               if (qc > 3) {
+                   //alert('Su petición se está procesando. Por favor espere un momento.');
+                   swal({title:"Su petición se está procesando. Por favor espere un momento.",type:"info",confirmButtonText:"Aceptar"});
+                   return false;
+               } else if (qc > 1) {
+                   btn.value = "Procesando...";
+                   return false;                   
+               }else  {
+                   return true;
+               }
+           }
+
+    jQuery(document).ready(function () {
+        HideMe();
+            jQuery('#thm-rev-slider').show().revolution({
+                dottedOverlay: 'none',
+                delay: 5000,
+                startwidth: 0,
+                startheight:650,
+
+                hideThumbs: 200,
+                thumbWidth: 200,
+                thumbHeight: 50,
+                thumbAmount: 2,
+
+                navigationType: 'thumb',
+                navigationArrows: 'solo',
+                navigationStyle: 'round',
+
+                touchenabled: 'on',
+                onHoverStop: 'on',
+                
+                swipe_velocity: 0.7,
+                swipe_min_touches: 1,
+                swipe_max_touches: 1,
+                drag_block_vertical: false,
+            
+                spinner: 'spinner0',
+                keyboardNavigation: 'off',
+
+                navigationHAlign: 'center',
+                navigationVAlign: 'bottom',
+                navigationHOffset: 0,
+                navigationVOffset: 20,
+
+                soloArrowLeftHalign: 'left',
+                soloArrowLeftValign: 'center',
+                soloArrowLeftHOffset: 20,
+                soloArrowLeftVOffset: 0,
+
+                soloArrowRightHalign: 'right',
+                soloArrowRightValign: 'center',
+                soloArrowRightHOffset: 20,
+                soloArrowRightVOffset: 0,
+
+                shadow: 0,
+                fullWidth: 'on',
+                fullScreen: 'on',
+
+                stopLoop: 'off',
+                stopAfterLoops: -1,
+                stopAtSlide: -1,
+
+                shuffle: 'off',
+
+                autoHeight: 'on',
+                forceFullWidth: 'off',
+                fullScreenAlignForce: 'off',
+                minFullScreenHeight: 0,
+                hideNavDelayOnMobile: 1500,
+            
+                hideThumbsOnMobile: 'off',
+                hideBulletsOnMobile: 'off',
+                hideArrowsOnMobile: 'off',
+                hideThumbsUnderResolution: 0,
+
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                startWithSlide: 0,
+                fullScreenOffsetContainer: ''
+            });
+        });
+        </script>
+
+    <div class="popup1" id="popUpAcerca" style="display: block;">
+ 
+    <div class="newsletter-sign-box" style="width:500px !important;">
+
+    <div class="newsletter">
+    <img src="../../assets/images/close-icon.png" alt="close" class="x" onClick="HideMe();">
+    <div class="newsletter_img"></div>
+        <h3>Acerca de anchetas morita</h3>
+        <div style="overflow: hidden;overflow-y: scroll;max-height:400px;">
+        <h4>Anchetas Moritas una empresa que nace en el amor de familia, y lo trasmite en sus productos.
+
+        </h4>
+    </div>
+    
+</div> <!--newsletter-->
+
+  </div> <!--newsletter-sign-box-->
+</div>
+<div class="popup1" id="popUpTerminos" style="display: block;">
+ 
+    <div class="newsletter-sign-box" style="width:500px !important;">
+
+    <div class="newsletter">
+    <img src="../../assets/images/close-icon.png" alt="close" class="x" onClick="HideMe();">
+    <div class="newsletter_img"></div>
+        <h3>Terminos y condiciones</h3>
+        <div style="overflow: hidden;overflow-y: scroll;max-height:400px;">
+        <h4>Es requisito necesario para la adquisición de los productos que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todas los productos  que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una página web tercera y en tal caso estarían sujetas a sus propios Términos y Condiciones. En algunos casos, para adquirir un producto, será necesario el registro por parte del usuario, con ingreso de datos personales fidedignos y definición de una contraseña.
+
+El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso de que se haya registrado y que sea necesario para la compra de alguno de nuestros productos.  no asume la responsabilidad en caso de que entregue dicha clave a terceros.
+
+Todas las compras y transacciones que se lleven a cabo por medio de este sitio web, están sujetas a un proceso de confirmación y verificación, el cual podría incluir la verificación del stock y disponibilidad de producto, validación de la forma de pago, validación de la factura (en caso de existir) y el cumplimiento de las condiciones requeridas por el medio de pago seleccionado. En algunos casos puede que se requiera una verificación por medio de correo electrónico.
+
+Los precios de los productos ofrecidos en esta Tienda Online es válido solamente en las compras realizadas en este sitio web.</h4>
+    </div>
+    
+</div> <!--newsletter-->
+
+  </div> <!--newsletter-sign-box-->
+</div>
+<div id="fade" style="display: block;"></div>      
+    <script type="text/javascript">
+
+        function mostrarAcerca() {
+            jQuery('#popUpAcerca').show();
+            jQuery('#fade').show();
+        }
+
+        function mostrarTerminos() {
+            jQuery('#popUpTerminos').show();
+            jQuery('#fade').show();
+        }
+    function HideMe()
+    {
+        jQuery('#popUpAcerca').hide();
+        jQuery('#popUpTerminos').hide();
+        jQuery('#fade').hide();
+    }
+</script> 
+   <asp:SqlDataSource ID="SqlDTCategorias" runat="server" 
+          ConnectionString="<%$ ConnectionStrings:AnchetasMoritaConnectionString %>" 
+          SelectCommand="select 
+ID_TIPO_PRODUCTO, NOMBRE_TIPO_PRODUCTO, URL_IMAGEN
+from [dbo].[TIPO_PRODUCTO]
+where activo=1
+order by NOMBRE_TIPO_PRODUCTO"></asp:SqlDataSource>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5fa2fb40e07efa6bd15d3987/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+</body>
+</html>
+

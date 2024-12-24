@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{973E9CD5-4137-4992-901A-9A6C0E5022C0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kuxan</RootNamespace>
+    <AssemblyName>kuxan</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=15.1.3.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Carlox\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib.Barcode.WinForms, Version=6.7.0.3200, Culture=neutral, PublicKeyToken=ef1bae04ecfd0461, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dominioAnchet\dll\BarcodeLib.Barcode.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="cgsfWebUtil">
+      <HintPath>..\cgsfWebUtil\bin\Debug\cgsfWebUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\fonts\site-icons.svg" />
+    <Content Include="assets\images\404-img.png" />
+    <Content Include="assets\images\arrow-down.png" />
+    <Content Include="assets\images\arrow-right.png" />
+    <Content Include="assets\images\arrow-up1.png" />
+    <Content Include="assets\images\arrows_sprite.png" />
+    <Content Include="assets\images\arrow_about.png" />
+    <Content Include="assets\images\avatar60x60.jpg" />
+    <Content Include="assets\images\banner.png" />
+    <Content Include="assets\images\bestseller-banner.png" />
+    <Content Include="assets\images\bg-header_big.png" />
+    <Content Include="assets\images\bg_shadow_about.png" />
+    <Content Include="assets\images\bkg_rating.png" />
+    <Content Include="assets\images\blog-banner.png" />
+    <Content Include="assets\images\blog-img.jpg" />
+    <Content Include="assets\images\brand-logo.jpg" />
+    <Content Include="assets\images\btn_remove.png" />
+    <Content Include="assets\images\bullet_1.png" />
+    <Content Include="assets\images\category-bg.jpg" />
+    <Content Include="assets\images\category-bg.png" />
+    <Content Include="assets\images\close-icon.png" />
+    <Content Include="assets\images\close_icon.png" />
+    <Content Include="assets\images\common.png" />
+    <Content Include="assets\images\cross-icon.png" />
+    <Content Include="assets\images\cross-img.png" />
+    <Content Include="assets\images\custom-block.png" />
+    <Content Include="assets\images\cust_left.png" />
+    <Content Include="assets\images\cust_right.png" />
+    <Content Include="assets\images\english.png" />
+    <Content Include="assets\images\fancybox.png" />
+    <Content Include="assets\images\footer-img.png" />
+    <Content Include="assets\images\francais.png" />
+    <Content Include="assets\images\german.png" />
+    <Content Include="assets\images\grey.gif" />
+    <Content Include="assets\images\handle.png" />
+    <Content Include="assets\images\hot-trends-banner.png" />
+    <Content Include="assets\images\icon_arrow_down.png" />
+    <Content Include="assets\images\icon_arrow_next.png" />
+    <Content Include="assets\images\icon_arrow_next_over.png" />
+    <Content Include="assets\images\icon_arrow_prev.png" />
+    <Content Include="assets\images\icon_arrow_prev_over.png" />
+    <Content Include="assets\images\icon_arrow_up.png" />
+    <Content Include="assets\images\icon_asc.png" />
+    <Content Include="assets\images\icon_asc_over.png" />
+    <Content Include="assets\images\icon_breadcrumbs.png" />
+    <Content Include="assets\images\icon_dsc.png" />
+    <Content Include="assets\images\icon_dsc_over.png" />
+    <Content Include="assets\images\icon_grid.png" />
+    <Content Include="assets\images\icon_grid_act.gif" />
+    <Content Include="assets\images\icon_grid_act.png" />
+    <Content Include="assets\images\icon_grid_over.png" />
+    <Content Include="assets\images\icon_list.png" />
+    <Content Include="assets\images\icon_list_act.gif" />
+    <Content Include="assets\images\icon_list_act.png" />
+    <Content Include="assets\images\icon_list_over.png" />
+    <Content Include="assets\images\left-a.png" />
+    <Content Include="assets\images\leftNav.png" />
+    <Content Include="assets\images\li_dot.png" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\menu-bag.png" />
+    <Content Include="assets\images\menu-img.png" />
+    <Content Include="assets\images\minus-blue.png" />
+    <Content Include="assets\images\minus-img.png" />
+    <Content Include="assets\images\minus.png" />
+    <Content Include="assets\images\newsletter_img.png" />
+    <Content Include="assets\images\opc-ajax-loader.gif" />
+    <Content Include="assets\images\orange.gif" />
+    <Content Include="assets\images\payment-1.png" />
+    <Content Include="assets\images\payment-2.png" />
+    <Content Include="assets\images\payment-3.png" />
+    <Content Include="assets\images\payment-4.png" />
+    <Content Include="assets\images\plus-blue.png" />
+    <Content Include="assets\images\plus-img.png" />
+    <Content Include="assets\images\plus.png" />
+    <Content Include="assets\images\quick-view.png" />
+    <Content Include="assets\images\right-a.png" />
+    <Content Include="assets\images\search-icon-big.png" />
+    <Content Include="assets\images\search-icon.png" />
+    <Content Include="assets\images\search-icon1.png" />
+    <Content Include="assets\images\select-arrow.png" />
+    <Content Include="assets\images\slide-left-arrow.png" />
+    <Content Include="assets\images\slide-right-arrow.png" />
+    <Content Include="assets\images\slider-arrow.png" />
+    <Content Include="assets\images\slider-image.png" />
+    <Content Include="assets\images\slideshow-arrows.png" />
+    <Content Include="assets\images\spanish.png" />
+    <Content Include="assets\images\sprite.png" />
+    <Content Include="assets\images\tab-pager-ring-lgray.png" />
+    <Content Include="assets\images\testimonial-photo.png" />
+    <Content Include="assets\images\test_arrow.png" />
+    <Content Include="assets\images\to-top-arrow.png" />
+    <Content Include="assets\images\tooltip.png" />
+    <Content Include="assets\images\tool_arrow_down.png" />
+    <Content Include="assets\images\tool_arrow_down_o.png" />
+    <Content Include="assets\images\tool_arrow_up.png" />
+    <Content Include="assets\images\top-arrow.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\cloud-zoom.js" />
+    <Content Include="assets\js\common.js" />
+    <Content Include="assets\js\jquery.bxslider.min.js" />
+    <Content Include="assets\js\jquery.flexslider.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\jquery.mobile-menu.min.js" />
+    <Content Include="assets\js\owl.carousel.min.js" />
+    <Content Include="assets\js\parallax.js" />
+    <Content Include="assets\js\revslider.js" />
+    <Content Include="assets\js\slider.js" />
+    <Content Include="assets\js\sweetalert.min.js" />
+    <Content Include="assets\products-images\product-img.jpg" />
+    <Content Include="assets\stylesheet\bootstrap.min.css" />
+    <Content Include="assets\stylesheet\flexslider.css" />
+    <Content Include="assets\stylesheet\font-awesome.css" />
+    <Content Include="assets\stylesheet\jquery.bxslider.css" />
+    <Content Include="assets\stylesheet\jquery.mobile-menu.css" />
+    <Content Include="assets\stylesheet\owl.carousel.css" />
+    <Content Include="assets\stylesheet\owl.theme.css" />
+    <Content Include="assets\stylesheet\responsive.css" />
+    <Content Include="assets\stylesheet\revslider.css" />
+    <Content Include="assets\stylesheet\style.css" />
+    <Content Include="dll\AjaxControlToolkit.dll" />
+    <Content Include="dll\BarcodeLib.Barcode.RDLCReports.dll" />
+    <Content Include="dll\BarcodeLib.Barcode.WinForms.dll" />
+    <Content Include="frm\administrador\frmHomeAdmin.aspx" />
+    <Content Include="frm\carro\frmGeneral.aspx" />
+    <Content Include="frm\carro\frmMicarro.aspx" />
+    <Content Include="frm\logica\frmCambiarContraseña.aspx" />
+    <Content Include="frm\logica\frmCrearTPproducto.aspx" />
+    <Content Include="frm\logica\frmGT_TipoProducto.aspx" />
+    <Content Include="frm\logica\frmMisPedidos.aspx" />
+    <Content Include="frm\logica\frmRecuperarContraseña.aspx" />
+    <Content Include="frm\logica\frmVerPedido.aspx" />
+    <Content Include="img\codes\imagen_registrar.jpg" />
+    <Content Include="Img_Productos\americano.png" />
+    <Content Include="Img_Productos\bebe.jpg" />
+    <Content Include="Img_Productos\caja vino gato.jpg" />
+    <Content Include="Img_Productos\cumpleaños1.png" />
+    <Content Include="Img_Productos\cumpleaños2.jpg" />
+    <Content Include="Img_Productos\cumpleaños3.jpg" />
+    <Content Include="Img_Productos\cumpleaños4.jpg" />
+    <Content Include="Img_Productos\cumpleaños5.jpg" />
+    <Content Include="Img_Productos\Light.png" />
+    <Content Include="Img_Productos\niña.jpg" />
+    <Content Include="Img_Productos\niño.png" />
+    <Content Include="Img_Productos\ocasion1.jpg" />
+    <Content Include="Img_Productos\ocasion2.jpg" />
+    <Content Include="Img_Productos\peluche.jpg" />
+    <Content Include="frm\logica\frmAnchetasCumpleaños.aspx" />
+    <Content Include="frm\logica\frmCualquierOcasion.aspx" />
+    <Content Include="frm\logica\frmDefault.aspx" />
+    <Content Include="frm\logica\frmDesayunos.aspx" />
+    <Content Include="frm\logica\frmEditarProducto.aspx" />
+    <Content Include="frm\logica\frmCarroCompras.aspx" />
+    <Content Include="frm\logica\frmCrearProducto.aspx" />
+    <Content Include="frm\logica\frmBasedatos.aspx" />
+    <Content Include="frm\logica\frmCerrarSesion.aspx" />
+    <Content Include="frm\logica\frmContactenos.aspx" />
+    <Content Include="frm\logica\frmCrearUsuario.aspx" />
+    <Content Include="frm\logica\frmDescargas.aspx" />
+    <Content Include="frm\logica\frmEditarUsuario.aspx" />
+    <Content Include="frm\logica\frmIntranet.aspx" />
+    <Content Include="frm\logica\frmListaProductos.aspx" />
+    <Content Include="frm\logica\frmLogin.aspx" />
+    <Content Include="frm\logica\frmMensaje.aspx" />
+    <Content Include="frm\logica\frmMenu.aspx" />
+    <Content Include="frm\logica\frmNiños.aspx" />
+    <Content Include="frm\logica\frmRegistro.aspx" />
+    <Content Include="frm\logica\frmServicios.aspx" />
+    <Content Include="frm\logica\frmTerminos.aspx" />
+    <Content Include="frm\logica\frmUsuario.aspx" />
+    <Content Include="frm\logica\frmGT_Anchetas.aspx" />
+    <Content Include="frm\logica\frmGT_Pedidos.aspx" />
+    <Content Include="frm\logica\frmGT_Usuarios.aspx" />
+    <Content Include="frm\logica\paginaBlanco.aspx" />
+    <Content Include="html\version1\404error.html" />
+    <Content Include="html\version1\about-us.html" />
+    <Content Include="html\version1\blog-detail.html" />
+    <Content Include="html\version1\blog.html" />
+    <Content Include="html\version1\checkout-billing-info.html" />
+    <Content Include="html\version1\checkout-method.html" />
+    <Content Include="html\version1\checkout.html" />
+    <Content Include="html\version1\contact-us.html" />
+    <Content Include="html\version1\dashboard.html" />
+    <Content Include="html\version1\fonts\fontawesome-webfont.svg" />
+    <Content Include="html\version1\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="html\version1\fonts\site-icons.svg" />
+    <Content Include="html\version1\grid.html" />
+    <Content Include="html\version1\images\404-img.png" />
+    <Content Include="html\version1\images\arrow-down.png" />
+    <Content Include="html\version1\images\arrow-right.png" />
+    <Content Include="html\version1\images\arrow-up1.png" />
+    <Content Include="html\version1\images\arrows_sprite.png" />
+    <Content Include="html\version1\images\arrow_about.png" />
+    <Content Include="html\version1\images\avatar60x60.jpg" />
+    <Content Include="html\version1\images\banner.png" />
+    <Content Include="html\version1\images\bestseller-banner.png" />
+    <Content Include="html\version1\images\bg-header_big.png" />
+    <Content Include="html\version1\images\bg_shadow_about.png" />
+    <Content Include="html\version1\images\bkg_rating.png" />
+    <Content Include="html\version1\images\blog-banner.png" />
+    <Content Include="html\version1\images\blog-img.jpg" />
+    <Content Include="html\version1\images\brand-logo.jpg" />
+    <Content Include="html\version1\images\btn_remove.png" />
+    <Content Include="html\version1\images\bullet_1.png" />
+    <Content Include="html\version1\images\category-bg.jpg" />
+    <Content Include="html\version1\images\category-bg.png" />
+    <Content Include="html\version1\images\close-icon.png" />
+    <Content Include="html\version1\images\close_icon.png" />
+    <Content Include="html\version1\images\common.png" />
+    <Content Include="html\version1\images\cross-icon.png" />
+    <Content Include="html\version1\images\cross-img.png" />
+    <Content Include="html\version1\images\custom-block.png" />
+    <Content Include="html\version1\images\cust_left.png" />
+    <Content Include="html\version1\images\cust_right.png" />
+    <Content Include="html\version1\images\english.png" />
+    <Content Include="html\version1\images\fancybox.png" />
+    <Content Include="html\version1\images\footer-img.png" />
+    <Content Include="html\version1\images\francais.png" />
+    <Content Include="html\version1\images\german.png" />
+    <Content Include="html\version1\images\grey.gif" />
+    <Content Include="html\version1\images\handle.png" />
+    <Content Include="html\version1\images\hot-trends-banner.png" />
+    <Content Include="html\version1\images\icon_arrow_down.png" />
+    <Content Include="html\version1\images\icon_arrow_next.png" />
+    <Content Include="html\version1\images\icon_arrow_next_over.png" />
+    <Content Include="html\version1\images\icon_arrow_prev.png" />
+    <Content Include="html\version1\images\icon_arrow_prev_over.png" />
+    <Content Include="html\version1\images\icon_arrow_up.png" />
+    <Content Include="html\version1\images\icon_asc.png" />
+    <Content Include="html\version1\images\icon_asc_over.png" />
+    <Content Include="html\version1\images\icon_breadcrumbs.png" />
+    <Content Include="html\version1\images\icon_dsc.png" />
+    <Content Include="html\version1\images\icon_dsc_over.png" />
+    <Content Include="html\version1\images\icon_grid.png" />
+    <Content Include="html\version1\images\icon_grid_act.gif" />
+    <Content Include="html\version1\images\icon_grid_act.png" />
+    <Content Include="html\version1\images\icon_grid_over.png" />
+    <Content Include="html\version1\images\icon_list.png" />
+    <Content Include="html\version1\images\icon_list_act.gif" />
+    <Content Include="html\version1\images\icon_list_act.png" />
+    <Content Include="html\version1\images\icon_list_over.png" />
+    <Content Include="html\version1\images\left-a.png" />
+    <Content Include="html\version1\images\leftNav.png" />
+    <Content Include="html\version1\images\li_dot.png" />
+    <Content Include="html\version1\images\logo.png" />
+    <Content Include="html\version1\images\menu-bag.png" />
+    <Content Include="html\version1\images\menu-img.png" />
+    <Content Include="html\version1\images\minus-blue.png" />
+    <Content Include="html\version1\images\minus-img.png" />
+    <Content Include="html\version1\images\minus.png" />
+    <Content Include="html\version1\images\newsletter_img.png" />
+    <Content Include="html\version1\images\opc-ajax-loader.gif" />
+    <Content Include="html\version1\images\orange.gif" />
+    <Content Include="html\version1\images\payment-1.png" />
+    <Content Include="html\version1\images\payment-2.png" />
+    <Content Include="html\version1\images\payment-3.png" />
+    <Content Include="html\version1\images\payment-4.png" />
+    <Content Include="html\version1\images\plus-blue.png" />
+    <Content Include="html\version1\images\plus-img.png" />
+    <Content Include="html\version1\images\plus.png" />
+    <Content Include="html\version1\images\quick-view.png" />
+    <Content Include="html\version1\images\right-a.png" />
+    <Content Include="html\version1\images\search-icon-big.png" />
+    <Content Include="html\version1\images\search-icon.png" />
+    <Content Include="html\version1\images\search-icon1.png" />
+    <Content Include="html\version1\images\select-arrow.png" />
+    <Content Include="html\version1\images\slide-left-arrow.png" />
+    <Content Include="html\version1\images\slide-right-arrow.png" />
+    <Content Include="html\version1\images\slider-arrow.png" />
+    <Content Include="html\version1\images\slider-image.png" />
+    <Content Include="html\version1\images\slideshow-arrows.png" />
+    <Content Include="html\version1\images\spanish.png" />
+    <Content Include="html\version1\images\sprite.png" />
+    <Content Include="html\version1\images\tab-pager-ring-lgray.png" />
+    <Content Include="html\version1\images\testimonial-photo.png" />
+    <Content Include="html\version1\images\test_arrow.png" />
+    <Content Include="html\version1\images\to-top-arrow.png" />
+    <Content Include="html\version1\images\tooltip.png" />
+    <Content Include="html\version1\images\tool_arrow_down.png" />
+    <Content Include="html\version1\images\tool_arrow_down_o.png" />
+    <Content Include="html\version1\images\tool_arrow_up.png" />
+    <Content Include="html\version1\images\top-arrow.png" />
+    <Content Include="html\version1\indexAlejandro.html" />
+    <Content Include="html\version1\index.html" />
+    <Content Include="html\version1\js\bootstrap.min.js" />
+    <Content Include="html\version1\js\cloud-zoom.js" />
+    <Content Include="html\version1\js\common.js" />
+    <Content Include="html\version1\js\jquery.bxslider.min.js" />
+    <Content Include="html\version1\js\jquery.flexslider.js" />
+    <Content Include="html\version1\js\jquery.min.js" />
+    <Content Include="html\version1\js\jquery.mobile-menu.min.js" />
+    <Content Include="html\version1\js\owl.carousel.min.js" />
+    <Content Include="html\version1\js\parallax.js" />
+    <Content Include="html\version1\js\revslider.js" />
+    <Content Include="html\version1\js\slider.js" />
+    <Content Include="html\version1\list.html" />
+    <Content Include="html\version1\login.html" />
+    <Content Include="html\version1\multiple-addresses.html" />
+    <Content Include="html\version1\newsletter.html" />
+    <Content Include="html\version1\product-detail.html" />
+    <Content Include="html\version1\products-images\product-img.jpg" />
+    <Content Include="html\version1\quickview.html" />
+    <Content Include="html\version1\shopping-cart.html" />
+    <Content Include="html\version1\stylesheet\bootstrap.min.css" />
+    <Content Include="html\version1\stylesheet\flexslider.css" />
+    <Content Include="html\version1\stylesheet\font-awesome.css" />
+    <Content Include="html\version1\stylesheet\jquery.bxslider.css" />
+    <Content Include="html\version1\stylesheet\jquery.mobile-menu.css" />
+    <Content Include="html\version1\stylesheet\owl.carousel.css" />
+    <Content Include="html\version1\stylesheet\owl.theme.css" />
+    <Content Include="html\version1\stylesheet\responsive.css" />
+    <Content Include="html\version1\stylesheet\revslider.css" />
+    <Content Include="html\version1\stylesheet\style.css" />
+    <Content Include="html\version1\wishlist.html" />
+    <Content Include="html\version2\404error.html" />
+    <Content Include="html\version2\about_us.html" />
+    <Content Include="html\version2\account_information.html" />
+    <Content Include="html\version2\address_book.html" />
+    <Content Include="html\version2\blog.html" />
+    <Content Include="html\version2\blog_detail.html" />
+    <Content Include="html\version2\checkout.html" />
+    <Content Include="html\version2\checkout_billing_info.html" />
+    <Content Include="html\version2\checkout_method.html" />
+    <Content Include="html\version2\contact_information.html" />
+    <Content Include="html\version2\contact_us.html" />
+    <Content Include="html\version2\css\animate.css" />
+    <Content Include="html\version2\css\blogmate.css" />
+    <Content Include="html\version2\css\bootstrap.min.css" />
+    <Content Include="html\version2\css\fancybox.css" />
+    <Content Include="html\version2\css\flexslider.css" />
+    <Content Include="html\version2\css\font-awesome.css" />
+    <Content Include="html\version2\css\internal.css" />
+    <Content Include="html\version2\css\jquery.bxslider.css" />
+    <Content Include="html\version2\css\jquery.mobile-menu.css" />
+    <Content Include="html\version2\css\owl.carousel.css" />
+    <Content Include="html\version2\css\owl.theme.css" />
+    <Content Include="html\version2\css\revslider.css" />
+    <Content Include="html\version2\css\simple-line-icons.css" />
+    <Content Include="html\version2\css\site-icons.css" />
+    <Content Include="html\version2\css\slider.css" />
+    <Content Include="html\version2\css\style.css" />
+    <Content Include="html\version2\dashboard.html" />
+    <Content Include="html\version2\faq.html" />
+    <Content Include="html\version2\fonts\fontawesome-webfont.svg" />
+    <Content Include="html\version2\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="html\version2\fonts\revicons\revicons.svg" />
+    <Content Include="html\version2\fonts\Simple-Line-Icons.dev.svg" />
+    <Content Include="html\version2\fonts\Simple-Line-Icons.svg" />
+    <Content Include="html\version2\fonts\site-icons.svg" />
+    <Content Include="html\version2\forgot_password.html" />
+    <Content Include="html\version2\grid.html" />
+    <Content Include="html\version2\images\admin-photo.jpg" />
+    <Content Include="html\version2\images\admin-photo1.jpg" />
+    <Content Include="html\version2\images\arrow-down.png" />
+    <Content Include="html\version2\images\arrow-right.png" />
+    <Content Include="html\version2\images\arrow-up1.png" />
+    <Content Include="html\version2\images\arrows_sprite.png" />
+    <Content Include="html\version2\images\article-header-overlay.png" />
+    <Content Include="html\version2\images\avatar60x60.jpg" />
+    <Content Include="html\version2\images\b-logo1.png" />
+    <Content Include="html\version2\images\b-logo2.png" />
+    <Content Include="html\version2\images\b-logo3.png" />
+    <Content Include="html\version2\images\b-logo4.png" />
+    <Content Include="html\version2\images\b-logo5.png" />
+    <Content Include="html\version2\images\b-logo6.png" />
+    <Content Include="html\version2\images\b-logo7.png" />
+    <Content Include="html\version2\images\bg.png" />
+    <Content Include="html\version2\images\bkg_rating.png" />
+    <Content Include="html\version2\images\bloc3.jpg" />
+    <Content Include="html\version2\images\block2.jpg" />
+    <Content Include="html\version2\images\blog-img1.jpg" />
+    <Content Include="html\version2\images\blog-img2.jpg" />
+    <Content Include="html\version2\images\blog-img3.jpg" />
+    <Content Include="html\version2\images\blog-img4.jpg" />
+    <Content Include="html\version2\images\blurflake1.png" />
+    <Content Include="html\version2\images\blurflake2.png" />
+    <Content Include="html\version2\images\blurflake3.png" />
+    <Content Include="html\version2\images\blurflake4.png" />
+    <Content Include="html\version2\images\body-bg17.png" />
+    <Content Include="html\version2\images\bottom-strip.png" />
+    <Content Include="html\version2\images\breadcrumb.png" />
+    <Content Include="html\version2\images\btn_remove.png" />
+    <Content Include="html\version2\images\bullet_1.png" />
+    <Content Include="html\version2\images\cart-img.png" />
+    <Content Include="html\version2\images\category-banner.jpg" />
+    <Content Include="html\version2\images\category-img1.jpg" />
+    <Content Include="html\version2\images\category-img2.jpg" />
+    <Content Include="html\version2\images\close-icon.png" />
+    <Content Include="html\version2\images\close_icon.png" />
+    <Content Include="html\version2\images\common.png" />
+    <Content Include="html\version2\images\cross-icon.png" />
+    <Content Include="html\version2\images\cust_left.png" />
+    <Content Include="html\version2\images\cust_right.png" />
+    <Content Include="html\version2\images\down-arrow.png" />
+    <Content Include="html\version2\images\english.png" />
+    <Content Include="html\version2\images\f-box-close-icon.png" />
+    <Content Include="html\version2\images\fancybox.png" />
+    <Content Include="html\version2\images\footer-img.jpg" />
+    <Content Include="html\version2\images\footer-logo.png" />
+    <Content Include="html\version2\images\francais.png" />
+    <Content Include="html\version2\images\german.png" />
+    <Content Include="html\version2\images\grey.gif" />
+    <Content Include="html\version2\images\handle.png" />
+    <Content Include="html\version2\images\icon_arrow_down.png" />
+    <Content Include="html\version2\images\icon_arrow_next.png" />
+    <Content Include="html\version2\images\icon_arrow_next_over.png" />
+    <Content Include="html\version2\images\icon_arrow_prev.png" />
+    <Content Include="html\version2\images\icon_arrow_prev_over.png" />
+    <Content Include="html\version2\images\icon_arrow_up.png" />
+    <Content Include="html\version2\images\icon_asc.png" />
+    <Content Include="html\version2\images\icon_asc_over.png" />
+    <Content Include="html\version2\images\icon_breadcrumbs.png" />
+    <Content Include="html\version2\images\icon_dsc.png" />
+    <Content Include="html\version2\images\icon_dsc_over.png" />
+    <Content Include="html\version2\images\icon_grid.png" />
+    <Content Include="html\version2\images\icon_grid_act.gif" />
+    <Content Include="html\version2\images\icon_grid_act.png" />
+    <Content Include="html\version2\images\icon_grid_over.png" />
+    <Content Include="html\version2\images\icon_list.png" />
+    <Content Include="html\version2\images\icon_list_act.gif" />
+    <Content Include="html\version2\images\icon_list_act.png" />
+    <Content Include="html\version2\images\icon_list_over.png" />
+    <Content Include="html\version2\images\interstitial-close.png" />
+    <Content Include="html\version2\images\left-a.png" />
+    <Content Include="html\version2\images\leftNav.png" />
+    <Content Include="html\version2\images\line.png" />
+    <Content Include="html\version2\images\li_dot.png" />
+    <Content Include="html\version2\images\logo.png" />
+    <Content Include="html\version2\images\menu_image.png" />
+    <Content Include="html\version2\images\minus-img.png" />
+    <Content Include="html\version2\images\minus.png" />
+    <Content Include="html\version2\images\opc-ajax-loader.gif" />
+    <Content Include="html\version2\images\parralax-bg2.jpg" />
+    <Content Include="html\version2\images\payment-1.png" />
+    <Content Include="html\version2\images\payment-2.png" />
+    <Content Include="html\version2\images\payment-3.png" />
+    <Content Include="html\version2\images\payment-4.png" />
+    <Content Include="html\version2\images\plus-img.png" />
+    <Content Include="html\version2\images\plus.png" />
+    <Content Include="html\version2\images\promo-banner1.jpg" />
+    <Content Include="html\version2\images\promo-banner2.jpg" />
+    <Content Include="html\version2\images\promo-banner3.jpg" />
+    <Content Include="html\version2\images\quick-view.png" />
+    <Content Include="html\version2\images\right-a.png" />
+    <Content Include="html\version2\images\search-icon-big.png" />
+    <Content Include="html\version2\images\search-icon.png" />
+    <Content Include="html\version2\images\search-icon1.png" />
+    <Content Include="html\version2\images\select-arrow.png" />
+    <Content Include="html\version2\images\seprator.jpg" />
+    <Content Include="html\version2\images\seprator.png" />
+    <Content Include="html\version2\images\signal.png" />
+    <Content Include="html\version2\images\slide-img1.jpg" />
+    <Content Include="html\version2\images\slide-img2.jpg" />
+    <Content Include="html\version2\images\slide-img3.jpg" />
+    <Content Include="html\version2\images\slide-left-arrow.png" />
+    <Content Include="html\version2\images\slide-right-arrow.png" />
+    <Content Include="html\version2\images\slider-arrow.png" />
+    <Content Include="html\version2\images\slideshow-arrows.png" />
+    <Content Include="html\version2\images\spanish.png" />
+    <Content Include="html\version2\images\sprite.png" />
+    <Content Include="html\version2\images\strip.png" />
+    <Content Include="html\version2\images\test_arrow.png" />
+    <Content Include="html\version2\images\to-top-arrow.png" />
+    <Content Include="html\version2\images\tooltip.png" />
+    <Content Include="html\version2\images\tool_arrow_down.png" />
+    <Content Include="html\version2\images\tool_arrow_down_o.png" />
+    <Content Include="html\version2\images\tool_arrow_up.png" />
+    <Content Include="html\version2\images\top-arrow.png" />
+    <Content Include="html\version2\images\video-img.jpg" />
+    <Content Include="html\version2\index.html" />
+    <Content Include="html\version2\js\bootstrap.min.js" />
+    <Content Include="html\version2\js\cloud-zoom.js" />
+    <Content Include="html\version2\js\common.js" />
+    <Content Include="html\version2\js\countdown.js" />
+    <Content Include="html\version2\js\jquery.bxslider.min.js" />
+    <Content Include="html\version2\js\jquery.flexslider.js" />
+    <Content Include="html\version2\js\jquery.min.js" />
+    <Content Include="html\version2\js\jquery.mobile-menu.min.js" />
+    <Content Include="html\version2\js\left-nav.js" />
+    <Content Include="html\version2\js\owl.carousel.min.js" />
+    <Content Include="html\version2\js\parallax.js" />
+    <Content Include="html\version2\js\revolution-slider.js" />
+    <Content Include="html\version2\js\revolution.extension.js" />
+    <Content Include="html\version2\js\revslider.css" />
+    <Content Include="html\version2\js\revslider.js" />
+    <Content Include="html\version2\js\slider.js" />
+    <Content Include="html\version2\list.html" />
+    <Content Include="html\version2\login.html" />
+    <Content Include="html\version2\multiple_addresses.html" />
+    <Content Include="html\version2\products-images\p1.jpg" />
+    <Content Include="html\version2\products-images\p10.jpg" />
+    <Content Include="html\version2\products-images\p11.jpg" />
+    <Content Include="html\version2\products-images\p12.jpg" />
+    <Content Include="html\version2\products-images\p13.jpg" />
+    <Content Include="html\version2\products-images\p14.jpg" />
+    <Content Include="html\version2\products-images\p15.jpg" />
+    <Content Include="html\version2\products-images\p16.jpg" />
+    <Content Include="html\version2\products-images\p17.jpg" />
+    <Content Include="html\version2\products-images\p18.jpg" />
+    <Content Include="html\version2\products-images\p19.jpg" />
+    <Content Include="html\version2\products-images\p2.jpg" />
+    <Content Include="html\version2\products-images\p20.jpg" />
+    <Content Include="html\version2\products-images\p21.jpg" />
+    <Content Include="html\version2\products-images\p22.jpg" />
+    <Content Include="html\version2\products-images\p23.jpg" />
+    <Content Include="html\version2\products-images\p24.jpg" />
+    <Content Include="html\version2\products-images\p25.jpg" />
+    <Content Include="html\version2\products-images\p26.jpg" />
+    <Content Include="html\version2\products-images\p27.jpg" />
+    <Content Include="html\version2\products-images\p28.jpg" />
+    <Content Include="html\version2\products-images\p29.jpg" />
+    <Content Include="html\version2\products-images\p3.jpg" />
+    <Content Include="html\version2\products-images\p30.jpg" />
+    <Content Include="html\version2\products-images\p4.jpg" />
+    <Content Include="html\version2\products-images\p5.jpg" />
+    <Content Include="html\version2\products-images\p6.jpg" />
+    <Content Include="html\version2\products-images\p7.jpg" />
+    <Content Include="html\version2\products-images\p8.jpg" />
+    <Content Include="html\version2\products-images\p9.jpg" />
+    <Content Include="html\version2\product_detail.html" />
+    <Content Include="html\version2\quick_view.html" />
+    <Content Include="html\version2\shopping_cart.html" />
+    <Content Include="html\version2\wishlist.html" />
+    <Content Include="img\404-img.png" />
+    <Content Include="img\arrow-down.png" />
+    <Content Include="img\arrow-right.png" />
+    <Content Include="img\arrow-up1.png" />
+    <Content Include="img\arrows_sprite.png" />
+    <Content Include="img\arrow_about.png" />
+    <Content Include="img\avatar60x60.jpg" />
+    <Content Include="img\banner.jpg" />
+    <Content Include="img\banner.png" />
+    <Content Include="img\bestseller-banner.png" />
+    <Content Include="img\bg-header_big.png" />
+    <Content Include="img\bg_shadow_about.png" />
+    <Content Include="img\bkg_rating.png" />
+    <Content Include="img\blog-banner.png" />
+    <Content Include="img\blog-img.jpg" />
+    <Content Include="img\brand-logo.jpg" />
+    <Content Include="img\btn_remove.png" />
+    <Content Include="img\bullet_1.png" />
+    <Content Include="img\category-bg.jpg" />
+    <Content Include="img\category-bg.png" />
+    <Content Include="img\close-icon.png" />
+    <Content Include="img\close_icon.png" />
+    <Content Include="img\codes\americano.png" />
+    <Content Include="img\codes\Anchetas Morita.mp4" />
+    <Content Include="img\codes\anchetas.ico" />
+    <Content Include="img\codes\avatar 1.jpg" />
+    <Content Include="img\codes\avatar 2.jpg" />
+    <Content Include="img\codes\avatar 3.jpg" />
+    <Content Include="img\codes\bebe.jpg" />
+    <Content Include="img\codes\caja vino gato.jpg" />
+    <Content Include="img\codes\cumpleaños1.png" />
+    <Content Include="img\codes\cumpleaños2.jpg" />
+    <Content Include="img\codes\cumpleaños3.jpg" />
+    <Content Include="img\codes\cumpleaños4.jpg" />
+    <Content Include="img\codes\cumpleaños5.jpg" />
+    <Content Include="img\codes\fondo 1.jpg" />
+    <Content Include="img\codes\fondo 4.jpg" />
+    <Content Include="img\codes\fondo 5.jpg" />
+    <Content Include="img\codes\fondo 6.jpg" />
+    <Content Include="img\codes\fondo prueba.jpg" />
+    <Content Include="img\codes\fondo prueba2.jpg" />
+    <Content Include="img\codes\GT_Anchetas.jpg" />
+    <Content Include="img\codes\GT_Pedidos.jpg" />
+    <Content Include="img\codes\GT_Usuarios.jpg" />
+    <Content Include="img\codes\Light.png" />
+    <Content Include="img\codes\logo.png" />
+    <Content Include="img\codes\niña.jpg" />
+    <Content Include="img\codes\niño.png" />
+    <Content Include="img\codes\ocasion1.jpg" />
+    <Content Include="img\codes\ocasion2.jpg" />
+    <Content Include="img\codes\peluche.jpg" />
+    <Content Include="img\codes\slider 2.jpg" />
+    <Content Include="img\codes\slider prueba.jpg" />
+    <Content Include="img\codes\slider prueba2.jpg" />
+    <Content Include="img\codes\slider prueba3.jpg" />
+    <Content Include="img\codes\slider prueba4jpg.jpg" />
+    <Content Include="img\codes\slider prueba5.jpg" />
+    <Content Include="img\common.png" />
+    <Content Include="img\cross-icon.png" />
+    <Content Include="img\cross-img.png" />
+    <Content Include="img\custom-block.png" />
+    <Content Include="img\cust_left.png" />
+    <Content Include="img\cust_right.png" />
+    <Content Include="img\desayuno.jpg" />
+    <Content Include="img\english.png" />
+    <Content Include="img\fancybox.png" />
+    <Content Include="img\footer-img.png" />
+    <Content Include="img\francais.png" />
+    <Content Include="img\german.png" />
+    <Content Include="img\grey.gif" />
+    <Content Include="img\handle.png" />
+    <Content Include="img\hot-trends-banner.png" />
+    <Content Include="img\icon_arrow_down.png" />
+    <Content Include="img\icon_arrow_next.png" />
+    <Content Include="img\icon_arrow_next_over.png" />
+    <Content Include="img\icon_arrow_prev.png" />
+    <Content Include="img\icon_arrow_prev_over.png" />
+    <Content Include="img\icon_arrow_up.png" />
+    <Content Include="img\icon_asc.png" />
+    <Content Include="img\icon_asc_over.png" />
+    <Content Include="img\icon_breadcrumbs.png" />
+    <Content Include="img\icon_dsc.png" />
+    <Content Include="img\icon_dsc_over.png" />
+    <Content Include="img\icon_grid.png" />
+    <Content Include="img\icon_grid_act.gif" />
+    <Content Include="img\icon_grid_act.png" />
+    <Content Include="img\icon_grid_over.png" />
+    <Content Include="img\icon_list.png" />
+    <Content Include="img\icon_list_act.gif" />
+    <Content Include="img\icon_list_act.png" />
+    <Content Include="img\icon_list_over.png" />
+    <Content Include="img\left-a.png" />
+    <Content Include="img\leftNav.png" />
+    <Content Include="img\li_dot.png" />
+    <Content Include="img\logo.ico" />
+    <Content Include="img\logo.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logofooter.jpg" />
+    <Content Include="img\menu-bag.png" />
+    <Content Include="img\menu-img.png" />
+    <Content Include="img\minus-blue.png" />
+    <Content Include="img\minus-img.png" />
+    <Content Include="img\minus.png" />
+    <Content Include="img\codes\anchetas.jpg" />
+    <Content Include="img\codes\cualquier ocasion.jpg" />
+    <Content Include="img\codes\desayuno.jpg" />
+    <Content Include="img\codes\niños.jpg" />
+    <Content Include="img\codes\slider 1.jpeg" />
+    <Content Include="img\newsletter_img.png" />
+    <Content Include="img\opc-ajax-loader.gif" />
+    <Content Include="img\orange.gif" />
+    <Content Include="img\payment-1.png" />
+    <Content Include="img\payment-2.png" />
+    <Content Include="img\payment-3.png" />
+    <Content Include="img\payment-4.png" />
+    <Content Include="img\plus-blue.png" />
+    <Content Include="img\plus-img.png" />
+    <Content Include="img\plus.png" />
+    <Content Include="img\prda.jpg" />
+    <Content Include="img\prdb.jpg" />
+    <Content Include="img\prdc.jpg" />
+    <Content Include="img\prde.jpg" />
+    <Content Include="img\prdf.jpg" />
+    <Content Include="img\prdh.jpg" />
+    <Content Include="img\prdi.jpg" />
+    <Content Include="img\prdj.jpg" />
+    <Content Include="img\prdk.jpg" />
+    <Content Include="img\prdl.jpg" />
+    <Content Include="img\prdm.jpg" />
+    <Content Include="img\prdn.jpg" />
+    <Content Include="img\product-img.jpg" />
+    <Content Include="img\puba.jpg" />
+    <Content Include="img\pubb.jpg" />
+    <Content Include="img\pubc.jpg" />
+    <Content Include="img\pubd.jpg" />
+    <Content Include="img\pube.jpg" />
+    <Content Include="img\quick-view.png" />
+    <Content Include="img\right-a.png" />
+    <Content Include="img\search-icon-big.png" />
+    <Content Include="img\search-icon.png" />
+    <Content Include="img\search-icon1.png" />
+    <Content Include="img\select-arrow.png" />
+    <Content Include="img\slide-left-arrow.png" />
+    <Content Include="img\slide-right-arrow.png" />
+    <Content Include="img\slider-arrow.png" />
+    <Content Include="img\slider-image.png" />
+    <Content Include="img\slideshow-arrows.png" />
+    <Content Include="img\spanish.png" />
+    <Content Include="img\sprite.png" />
+    <Content Include="img\tab-pager-ring-lgray.png" />
+    <Content Include="img\testimonial-photo.png" />
+    <Content Include="img\test_arrow.png" />
+    <Content Include="img\to-top-arrow.png" />
+    <Content Include="img\tooltip.png" />
+    <Content Include="img\tool_arrow_down.png" />
+    <Content Include="img\tool_arrow_down_o.png" />
+    <Content Include="img\tool_arrow_up.png" />
+    <Content Include="img\top-arrow.png" />
+    <Content Include="packages.config" />
+    <Content Include="frm\master\master.Master" />
+    <Content Include="html\version1\fonts\clhLqOv7MXn459PTh0gXYHW1xglZCgocDnD_teV2lMU.woff" />
+    <Content Include="html\version1\fonts\fontawesome-webfont.eot" />
+    <Content Include="html\version1\fonts\fontawesome-webfont.ttf" />
+    <Content Include="html\version1\fonts\fontawesome-webfont.woff" />
+    <Content Include="html\version1\fonts\FontAwesome.otf" />
+    <Content Include="html\version1\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="html\version1\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="html\version1\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="html\version1\fonts\site-icons.eot" />
+    <Content Include="html\version1\fonts\site-icons.ttf" />
+    <Content Include="html\version1\fonts\site-icons.woff" />
+    <Content Include="html\version1\images\Thumbs.db" />
+    <Content Include="html\version2\fonts\clhLqOv7MXn459PTh0gXYHW1xglZCgocDnD_teV2lMU.woff" />
+    <Content Include="html\version2\fonts\fontawesome-webfont.eot" />
+    <Content Include="html\version2\fonts\fontawesome-webfont.ttf" />
+    <Content Include="html\version2\fonts\fontawesome-webfont.woff" />
+    <Content Include="html\version2\fonts\FontAwesome.otf" />
+    <Content Include="html\version2\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="html\version2\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="html\version2\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="html\version2\fonts\revicons\index.php" />
+    <Content Include="html\version2\fonts\revicons\revicons.eot" />
+    <Content Include="html\version2\fonts\revicons\revicons.ttf" />
+    <Content Include="html\version2\fonts\revicons\revicons.woff" />
+    <Content Include="html\version2\fonts\Simple-Line-Icons.eot" />
+    <Content Include="html\version2\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="html\version2\fonts\Simple-Line-Icons.woff" />
+    <Content Include="html\version2\fonts\site-icons.eot" />
+    <Content Include="html\version2\fonts\site-icons.ttf" />
+    <Content Include="html\version2\fonts\site-icons.woff" />
+    <Content Include="assets\images\Thumbs.db" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\site-icons.eot" />
+    <Content Include="assets\fonts\site-icons.ttf" />
+    <Content Include="assets\fonts\site-icons.woff" />
+    <Content Include="html\BROCHURE PRODUCTOS.docx" />
+    <Content Include="docs\BROCHURE PRODUCTOS.docx" />
+    <Content Include="img\Thumbs.db" />
+    <Content Include="frm\master\Site1.Master" />
+    <None Include="Properties\PublishProfiles\norml.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="frm\logica\WebForm1.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cls\ReCaptchaClass.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\administrador\frmHomeAdmin.aspx.cs">
+      <DependentUpon>frmHomeAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\administrador\frmHomeAdmin.aspx.designer.cs">
+      <DependentUpon>frmHomeAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\carro\frmGeneral.aspx.cs">
+      <DependentUpon>frmGeneral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\carro\frmGeneral.aspx.designer.cs">
+      <DependentUpon>frmGeneral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\carro\frmMicarro.aspx.cs">
+      <DependentUpon>frmMicarro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\carro\frmMicarro.aspx.designer.cs">
+      <DependentUpon>frmMicarro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmAnchetasCumpleaños.aspx.cs">
+      <DependentUpon>frmAnchetasCumpleaños.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmAnchetasCumpleaños.aspx.designer.cs">
+      <DependentUpon>frmAnchetasCumpleaños.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmCambiarContraseña.aspx.cs">
+      <DependentUpon>frmCambiarContraseña.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmCambiarContraseña.aspx.designer.cs">
+      <DependentUpon>frmCambiarContraseña.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmCrearTPproducto.aspx.cs">
+      <DependentUpon>frmCrearTPproducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmCrearTPproducto.aspx.designer.cs">
+      <DependentUpon>frmCrearTPproducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmCualquierOcasion.aspx.cs">
+      <DependentUpon>frmCualquierOcasion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmCualquierOcasion.aspx.designer.cs">
+      <DependentUpon>frmCualquierOcasion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmDefault.aspx.cs">
+      <DependentUpon>frmDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmDefault.aspx.designer.cs">
+      <DependentUpon>frmDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmDesayunos.aspx.cs">
+      <DependentUpon>frmDesayunos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmDesayunos.aspx.designer.cs">
+      <DependentUpon>frmDesayunos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmEditarProducto.aspx.cs">
+      <DependentUpon>frmEditarProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmEditarProducto.aspx.designer.cs">
+      <DependentUpon>frmEditarProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmCarroCompras.aspx.cs">
+      <DependentUpon>frmCarroCompras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmCarroCompras.aspx.designer.cs">
+      <DependentUpon>frmCarroCompras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmCrearProducto.aspx.cs">
+      <DependentUpon>frmCrearProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmCrearProducto.aspx.designer.cs">
+      <DependentUpon>frmCrearProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmBasedatos.aspx.cs">
+      <DependentUpon>frmBasedatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmBasedatos.aspx.designer.cs">
+      <DependentUpon>frmBasedatos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmCerrarSesion.aspx.cs">
+      <DependentUpon>frmCerrarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmCerrarSesion.aspx.designer.cs">
+      <DependentUpon>frmCerrarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmContactenos.aspx.cs">
+      <DependentUpon>frmContactenos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmContactenos.aspx.designer.cs">
+      <DependentUpon>frmContactenos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmCrearUsuario.aspx.cs">
+      <DependentUpon>frmCrearUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmCrearUsuario.aspx.designer.cs">
+      <DependentUpon>frmCrearUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmDescargas.aspx.cs">
+      <DependentUpon>frmDescargas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmDescargas.aspx.designer.cs">
+      <DependentUpon>frmDescargas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmEditarUsuario.aspx.cs">
+      <DependentUpon>frmEditarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmEditarUsuario.aspx.designer.cs">
+      <DependentUpon>frmEditarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmGT_TipoProducto.aspx.cs">
+      <DependentUpon>frmGT_TipoProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmGT_TipoProducto.aspx.designer.cs">
+      <DependentUpon>frmGT_TipoProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmIntranet.aspx.cs">
+      <DependentUpon>frmIntranet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmIntranet.aspx.designer.cs">
+      <DependentUpon>frmIntranet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmListaProductos.aspx.cs">
+      <DependentUpon>frmListaProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmListaProductos.aspx.designer.cs">
+      <DependentUpon>frmListaProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmLogin.aspx.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmLogin.aspx.designer.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmMensaje.aspx.cs">
+      <DependentUpon>frmMensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmMensaje.aspx.designer.cs">
+      <DependentUpon>frmMensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmMenu.aspx.cs">
+      <DependentUpon>frmMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmMenu.aspx.designer.cs">
+      <DependentUpon>frmMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmMisPedidos.aspx.cs">
+      <DependentUpon>frmMisPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmMisPedidos.aspx.designer.cs">
+      <DependentUpon>frmMisPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmNiños.aspx.cs">
+      <DependentUpon>frmNiños.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmNiños.aspx.designer.cs">
+      <DependentUpon>frmNiños.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmRecuperarContraseña.aspx.cs">
+      <DependentUpon>frmRecuperarContraseña.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmRecuperarContraseña.aspx.designer.cs">
+      <DependentUpon>frmRecuperarContraseña.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmRegistro.aspx.cs">
+      <DependentUpon>frmRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmRegistro.aspx.designer.cs">
+      <DependentUpon>frmRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmServicios.aspx.cs">
+      <DependentUpon>frmServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmServicios.aspx.designer.cs">
+      <DependentUpon>frmServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmTerminos.aspx.cs">
+      <DependentUpon>frmTerminos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmTerminos.aspx.designer.cs">
+      <DependentUpon>frmTerminos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmUsuario.aspx.cs">
+      <DependentUpon>frmUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmUsuario.aspx.designer.cs">
+      <DependentUpon>frmUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmGT_Anchetas.aspx.cs">
+      <DependentUpon>frmGT_Anchetas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmGT_Anchetas.aspx.designer.cs">
+      <DependentUpon>frmGT_Anchetas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmGT_Pedidos.aspx.cs">
+      <DependentUpon>frmGT_Pedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmGT_Pedidos.aspx.designer.cs">
+      <DependentUpon>frmGT_Pedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmGT_Usuarios.aspx.cs">
+      <DependentUpon>frmGT_Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmGT_Usuarios.aspx.designer.cs">
+      <DependentUpon>frmGT_Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\frmVerPedido.aspx.cs">
+      <DependentUpon>frmVerPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\frmVerPedido.aspx.designer.cs">
+      <DependentUpon>frmVerPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\paginaBlanco.aspx.cs">
+      <DependentUpon>paginaBlanco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\paginaBlanco.aspx.designer.cs">
+      <DependentUpon>paginaBlanco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\logica\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\logica\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm\master\master.Master.cs">
+      <DependentUpon>master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\master\master.Master.designer.cs">
+      <DependentUpon>master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="frm\master\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm\master\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="frm\logica\App_LocalResources\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dominioAnchet\dominioAnchet.csproj">
+      <Project>{43ad5a18-8b2e-49b0-b991-bbec0ec64c31}</Project>
+      <Name>dominioAnchet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>38276</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:38276/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

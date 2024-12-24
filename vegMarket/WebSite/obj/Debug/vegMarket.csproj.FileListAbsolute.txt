@@ -1,0 +1,152 @@
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\mildaWebSite.dll.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\mildaWebSite.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\mildaWebSite.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Antlr3.Runtime.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\AspNet.ScriptManager.bootstrap.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\AspNet.ScriptManager.jQuery.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Microsoft.ScriptManager.WebForms.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Newtonsoft.Json.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\System.Web.Optimization.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\WebGrease.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\System.Web.Optimization.xml
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Newtonsoft.Json.xml
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Antlr3.Runtime.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\es\System.Web.Optimization.resources.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\obj\Debug\vegMarket.csproj.AssemblyReference.cache
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\obj\Debug\vegMarket.csproj.CoreCompileInputs.cache
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\obj\Debug\vegMarket.csproj.CopyComplete
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\obj\Debug\mildaWebSite.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\obj\Debug\mildaWebSite.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\csc.exe
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\csc.exe.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\csc.rsp
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\csi.exe
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\csi.exe.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\csi.rsp
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.Managed.Core.targets
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.AppContext.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Console.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Globalization.Calendars.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.IO.Compression.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.IO.FileSystem.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Net.Http.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Net.Sockets.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.ValueTuple.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Xml.XmlDocument.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Xml.XPath.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\vbc.exe
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\vbc.exe.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\vbc.rsp
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\VBCSCompiler.exe
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\vegMarket\WebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\mildaWebSite.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\mildaWebSite.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\mildaWebSite.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\csc.exe
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\csc.exe.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\csc.rsp
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\csi.exe
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\csi.exe.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\csi.rsp
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.Managed.Core.targets
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.AppContext.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Console.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Globalization.Calendars.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.IO.Compression.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.IO.FileSystem.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Net.Http.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Net.Sockets.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.ValueTuple.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Xml.XmlDocument.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Xml.XPath.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\vbc.exe
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\vbc.exe.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\vbc.rsp
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\VBCSCompiler.exe
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Antlr3.Runtime.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\AspNet.ScriptManager.bootstrap.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\AspNet.ScriptManager.jQuery.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Microsoft.ScriptManager.WebForms.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Newtonsoft.Json.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\System.Web.Optimization.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\WebGrease.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\System.Web.Optimization.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Newtonsoft.Json.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Antlr3.Runtime.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\es\System.Web.Optimization.resources.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\obj\Debug\vegMarket.csproj.AssemblyReference.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\obj\Debug\vegMarket.csproj.CoreCompileInputs.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\obj\Debug\vegMarket.csproj.Up2Date
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\obj\Debug\mildaWebSite.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\vegMarket\WebSite\obj\Debug\mildaWebSite.pdb

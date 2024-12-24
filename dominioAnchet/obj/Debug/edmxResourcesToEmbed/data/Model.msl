@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AnchetasMoritaModelStoreContainer" CdmEntityContainer="AnchetasMoritaEntities">
+    <EntitySetMapping Name="DETALLE_COMPRA">
+      <EntityTypeMapping TypeName="AnchetasMoritaModel.DETALLE_COMPRA">
+        <MappingFragment StoreEntitySet="DETALLE_COMPRA">
+          <ScalarProperty Name="ID_DETALLE_COMPRA" ColumnName="ID_DETALLE_COMPRA" />
+          <ScalarProperty Name="ID_COMPRA" ColumnName="ID_COMPRA" />
+          <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+          <ScalarProperty Name="PRECIO_TOTAL" ColumnName="PRECIO_TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AnchetasMoritaModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOS">
+      <EntityTypeMapping TypeName="AnchetasMoritaModel.USUARIOS">
+        <MappingFragment StoreEntitySet="USUARIOS">
+          <ScalarProperty Name="ROL" ColumnName="ROL" />
+          <ScalarProperty Name="CORREO_VERIFICADO" ColumnName="CORREO_VERIFICADO" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CELULAR" ColumnName="CELULAR" />
+          <ScalarProperty Name="TELEFONO_FIJO" ColumnName="TELEFONO_FIJO" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="APELLIDOS_USUARIO" ColumnName="APELLIDOS_USUARIO" />
+          <ScalarProperty Name="NOMBRE_USUARIO" ColumnName="NOMBRE_USUARIO" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCTOS">
+      <EntityTypeMapping TypeName="AnchetasMoritaModel.PRODUCTOS">
+        <MappingFragment StoreEntitySet="PRODUCTOS">
+          <ScalarProperty Name="ID_TIPO_PRODUCTO" ColumnName="ID_TIPO_PRODUCTO" />
+          <ScalarProperty Name="URL_IMAGEN" ColumnName="URL_IMAGEN" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="DESCRIPCION_PRODUCTO" ColumnName="DESCRIPCION_PRODUCTO" />
+          <ScalarProperty Name="PRECIO_PRODUCTO" ColumnName="PRECIO_PRODUCTO" />
+          <ScalarProperty Name="NOMBRE_PRODUCTO" ColumnName="NOMBRE_PRODUCTO" />
+          <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_PRODUCTO">
+      <EntityTypeMapping TypeName="AnchetasMoritaModel.TIPO_PRODUCTO">
+        <MappingFragment StoreEntitySet="TIPO_PRODUCTO">
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="URL_IMAGEN" ColumnName="URL_IMAGEN" />
+          <ScalarProperty Name="NOMBRE_TIPO_PRODUCTO" ColumnName="NOMBRE_TIPO_PRODUCTO" />
+          <ScalarProperty Name="ID_TIPO_PRODUCTO" ColumnName="ID_TIPO_PRODUCTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMPRAS">
+      <EntityTypeMapping TypeName="AnchetasMoritaModel.COMPRAS">
+        <MappingFragment StoreEntitySet="COMPRAS">
+          <ScalarProperty Name="COD_ESTADO_COMPRA" ColumnName="COD_ESTADO_COMPRA" />
+          <ScalarProperty Name="TELEFONO_ENTREGA" ColumnName="TELEFONO_ENTREGA" />
+          <ScalarProperty Name="DIRECCION_DE_ENTREGA" ColumnName="DIRECCION_DE_ENTREGA" />
+          <ScalarProperty Name="DE_PARTE_DE" ColumnName="DE_PARTE_DE" />
+          <ScalarProperty Name="TITULO_MENSAJE" ColumnName="TITULO_MENSAJE" />
+          <ScalarProperty Name="ENTREGAR_A_QUIEN" ColumnName="ENTREGAR_A_QUIEN" />
+          <ScalarProperty Name="MENSAJE" ColumnName="MENSAJE" />
+          <ScalarProperty Name="PAGADA" ColumnName="PAGADA" />
+          <ScalarProperty Name="FECHA_ENTREGA" ColumnName="FECHA_ENTREGA" />
+          <ScalarProperty Name="FECHA_COMPRA" ColumnName="FECHA_COMPRA" />
+          <ScalarProperty Name="COSTO_TOTAL" ColumnName="COSTO_TOTAL" />
+          <ScalarProperty Name="NOMBRES_PRODUCTOS" ColumnName="NOMBRES_PRODUCTOS" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="ID_COMPRA" ColumnName="ID_COMPRA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADO_COMPRA">
+      <EntityTypeMapping TypeName="AnchetasMoritaModel.ESTADO_COMPRA">
+        <MappingFragment StoreEntitySet="ESTADO_COMPRA">
+          <ScalarProperty Name="NOMBRE_ESTADO_COMPRA" ColumnName="NOMBRE_ESTADO_COMPRA" />
+          <ScalarProperty Name="COD_ESTADO_COMPRA" ColumnName="COD_ESTADO_COMPRA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

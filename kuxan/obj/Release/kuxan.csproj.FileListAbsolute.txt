@@ -1,0 +1,54 @@
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\csc.exe
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\System.Collections.Immutable.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\System.Reflection.Metadata.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\vbc.exe
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\VBCSCompiler.exe
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\roslyn\VBCSCompiler.exe.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\kuxan.dll.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\kuxan.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\kuxan.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\cgsfWebUtil.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\EntityFramework.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\cgsfWebUtil.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\cgsfWebUtil.dll.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\EntityFramework.xml
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\obj\Release\kuxan.csproj.AssemblyReference.cache
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\obj\Release\kuxan.csproj.CoreCompileInputs.cache
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\obj\Release\kuxan.csproj.CopyComplete
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\obj\Release\kuxan.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\kuxan\obj\Release\kuxan.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\csc.exe
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\System.Collections.Immutable.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\System.Reflection.Metadata.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\vbc.exe
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\VBCSCompiler.exe
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\roslyn\VBCSCompiler.exe.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\kuxan.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\kuxan.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\kuxan.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\cgsfWebUtil.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\EntityFramework.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\cgsfWebUtil.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\cgsfWebUtil.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\EntityFramework.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\obj\Release\kuxan.csproj.AssemblyReference.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\obj\Release\kuxan.csproj.CoreCompileInputs.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\obj\Release\kuxan.csproj.Up2Date
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\obj\Release\kuxan.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\kuxan\obj\Release\kuxan.pdb

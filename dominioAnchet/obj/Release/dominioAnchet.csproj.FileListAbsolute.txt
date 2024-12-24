@@ -1,0 +1,16 @@
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\dominioAnchet.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\dominioAnchet.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\dominioAnchet.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\BarcodeLib.Barcode.WinForms.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\EntityFramework.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\EPPlus.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\OfficeOpenXml.Core.ExcelPackage.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\System.IO.Packaging.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\EntityFramework.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\bin\Release\OfficeOpenXml.Core.ExcelPackage.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\obj\Release\dominioAnchet.csproj.AssemblyReference.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\obj\Release\dominioAnchet.csproj.CoreCompileInputs.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\obj\Release\dominioA.0D7C6B06.Up2Date
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\obj\Release\dominioAnchet.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\dominioAnchet\obj\Release\dominioAnchet.pdb

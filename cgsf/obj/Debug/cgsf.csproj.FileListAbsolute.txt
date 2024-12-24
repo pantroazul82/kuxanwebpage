@@ -1,0 +1,26 @@
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\bin\cgsf.dll.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\bin\cgsf.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\bin\cgsf.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\bin\cgsfWebUtil.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\bin\EntityFramework.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\bin\cgsfWebUtil.pdb
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\bin\cgsfWebUtil.dll.config
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\bin\EntityFramework.xml
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\obj\Debug\cgsf.csproj.AssemblyReference.cache
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\obj\Debug\cgsf.csproj.CoreCompileInputs.cache
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\obj\Debug\cgsf.csproj.CopyComplete
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\obj\Debug\cgsf.dll
+C:\CG\tfsKuxan\CGSF Web Site\cgsf\cgsf\obj\Debug\cgsf.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsf.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsf.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsf.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsfWebUtil.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\EntityFramework.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsfWebUtil.pdb
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\cgsfWebUtil.dll.config
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\bin\EntityFramework.xml
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Debug\cgsf.csproj.AssemblyReference.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Debug\cgsf.csproj.CoreCompileInputs.cache
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Debug\cgsf.csproj.Up2Date
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Debug\cgsf.dll
+C:\CG\git\kuxanwebpage\kuxanwebpage\cgsf\obj\Debug\cgsf.pdb

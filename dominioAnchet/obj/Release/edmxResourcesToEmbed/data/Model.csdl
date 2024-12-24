@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AnchetasMoritaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DETALLE_COMPRA">
+    <Key>
+      <PropertyRef Name="ID_DETALLE_COMPRA" />
+    </Key>
+    <Property Name="ID_DETALLE_COMPRA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_COMPRA" Type="Int32" Nullable="false" />
+    <Property Name="ID_PRODUCTO" Type="Int32" Nullable="false" />
+    <Property Name="CANTIDAD" Type="Int32" Nullable="false" />
+    <Property Name="PRECIO_TOTAL" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="PRODUCTOS" Relationship="AnchetasMoritaModel.FK_DETALLE_COMPRA_PRODUCTOS" FromRole="DETALLE_COMPRA" ToRole="PRODUCTOS" />
+    <NavigationProperty Name="COMPRAS" Relationship="AnchetasMoritaModel.FK_DETALLE_COMPRA_COMPRAS" FromRole="DETALLE_COMPRA" ToRole="COMPRAS" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="AnchetasMoritaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DETALLE_COMPRA" EntityType="Self.DETALLE_COMPRA" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="USUARIOS" EntityType="AnchetasMoritaModel.USUARIOS" />
+    <EntitySet Name="PRODUCTOS" EntityType="AnchetasMoritaModel.PRODUCTOS" />
+    <AssociationSet Name="FK_DETALLE_COMPRA_PRODUCTOS" Association="AnchetasMoritaModel.FK_DETALLE_COMPRA_PRODUCTOS">
+      <End Role="PRODUCTOS" EntitySet="PRODUCTOS" />
+      <End Role="DETALLE_COMPRA" EntitySet="DETALLE_COMPRA" />
+    </AssociationSet>
+    <EntitySet Name="TIPO_PRODUCTO" EntityType="AnchetasMoritaModel.TIPO_PRODUCTO" />
+    <AssociationSet Name="FK_PRODUCTOS_TIPO_PRODUCTO" Association="AnchetasMoritaModel.FK_PRODUCTOS_TIPO_PRODUCTO">
+      <End Role="TIPO_PRODUCTO" EntitySet="TIPO_PRODUCTO" />
+      <End Role="PRODUCTOS" EntitySet="PRODUCTOS" />
+    </AssociationSet>
+    <EntitySet Name="COMPRAS" EntityType="AnchetasMoritaModel.COMPRAS" />
+    <AssociationSet Name="FK_COMPRAS_USUARIOS" Association="AnchetasMoritaModel.FK_COMPRAS_USUARIOS">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="COMPRAS" EntitySet="COMPRAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_COMPRA_COMPRAS" Association="AnchetasMoritaModel.FK_DETALLE_COMPRA_COMPRAS">
+      <End Role="COMPRAS" EntitySet="COMPRAS" />
+      <End Role="DETALLE_COMPRA" EntitySet="DETALLE_COMPRA" />
+    </AssociationSet>
+    <EntitySet Name="ESTADO_COMPRA" EntityType="AnchetasMoritaModel.ESTADO_COMPRA" />
+    <AssociationSet Name="FK_COMPRAS_ESTADO_COMPRA" Association="AnchetasMoritaModel.FK_COMPRAS_ESTADO_COMPRA">
+      <End Role="ESTADO_COMPRA" EntitySet="ESTADO_COMPRA" />
+      <End Role="COMPRAS" EntitySet="COMPRAS" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="ID_USUARIO" />
+    </Key>
+    <Property Name="ID_USUARIO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_USUARIO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="APELLIDOS_USUARIO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIRECCION" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="TELEFONO_FIJO" Type="Int32" />
+    <Property Name="CELULAR" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PASSWORD" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CORREO_VERIFICADO" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ROL" Type="String" MaxLength="70" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="COMPRAS" Relationship="AnchetasMoritaModel.FK_COMPRAS_USUARIOS" FromRole="USUARIOS" ToRole="COMPRAS" />
+  </EntityType>
+  <EntityType Name="PRODUCTOS">
+    <Key>
+      <PropertyRef Name="ID_PRODUCTO" />
+    </Key>
+    <Property Name="ID_PRODUCTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_PRODUCTO" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="PRECIO_PRODUCTO" Type="Int32" Nullable="false" />
+    <Property Name="DESCRIPCION_PRODUCTO" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="ACTIVO" Type="Boolean" />
+    <Property Name="URL_IMAGEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ID_TIPO_PRODUCTO" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DETALLE_COMPRA" Relationship="AnchetasMoritaModel.FK_DETALLE_COMPRA_PRODUCTOS" FromRole="PRODUCTOS" ToRole="DETALLE_COMPRA" />
+    <NavigationProperty Name="TIPO_PRODUCTO" Relationship="AnchetasMoritaModel.FK_PRODUCTOS_TIPO_PRODUCTO" FromRole="PRODUCTOS" ToRole="TIPO_PRODUCTO" />
+  </EntityType>
+  <Association Name="FK_DETALLE_COMPRA_PRODUCTOS">
+    <End Type="AnchetasMoritaModel.PRODUCTOS" Role="PRODUCTOS" Multiplicity="1" />
+    <End Type="AnchetasMoritaModel.DETALLE_COMPRA" Role="DETALLE_COMPRA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTOS">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Principal>
+      <Dependent Role="DETALLE_COMPRA">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="TIPO_PRODUCTO">
+    <Key>
+      <PropertyRef Name="ID_TIPO_PRODUCTO" />
+    </Key>
+    <Property Name="ID_TIPO_PRODUCTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_TIPO_PRODUCTO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="URL_IMAGEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ACTIVO" Type="Boolean" />
+    <NavigationProperty Name="PRODUCTOS" Relationship="AnchetasMoritaModel.FK_PRODUCTOS_TIPO_PRODUCTO" FromRole="TIPO_PRODUCTO" ToRole="PRODUCTOS" />
+  </EntityType>
+  <Association Name="FK_PRODUCTOS_TIPO_PRODUCTO">
+    <End Type="AnchetasMoritaModel.TIPO_PRODUCTO" Role="TIPO_PRODUCTO" Multiplicity="1" />
+    <End Type="AnchetasMoritaModel.PRODUCTOS" Role="PRODUCTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_PRODUCTO">
+        <PropertyRef Name="ID_TIPO_PRODUCTO" />
+      </Principal>
+      <Dependent Role="PRODUCTOS">
+        <PropertyRef Name="ID_TIPO_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="COMPRAS">
+    <Key>
+      <PropertyRef Name="ID_COMPRA" />
+    </Key>
+    <Property Name="ID_COMPRA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_USUARIO" Type="Int32" Nullable="false" />
+    <Property Name="NOMBRES_PRODUCTOS" Type="String" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <Property Name="COSTO_TOTAL" Type="Int32" Nullable="false" />
+    <Property Name="FECHA_COMPRA" Type="DateTime" Precision="3" />
+    <Property Name="FECHA_ENTREGA" Type="DateTime" Precision="3" />
+    <Property Name="PAGADA" Type="Boolean" />
+    <Property Name="MENSAJE" Type="String" MaxLength="3000" FixedLength="false" Unicode="true" />
+    <Property Name="ENTREGAR_A_QUIEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TITULO_MENSAJE" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DE_PARTE_DE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIRECCION_DE_ENTREGA" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TELEFONO_ENTREGA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="USUARIOS" Relationship="AnchetasMoritaModel.FK_COMPRAS_USUARIOS" FromRole="COMPRAS" ToRole="USUARIOS" />
+    <NavigationProperty Name="DETALLE_COMPRA" Relationship="AnchetasMoritaModel.FK_DETALLE_COMPRA_COMPRAS" FromRole="COMPRAS" ToRole="DETALLE_COMPRA" />
+    <Property Name="COD_ESTADO_COMPRA" Type="Int32" />
+    <NavigationProperty Name="ESTADO_COMPRA" Relationship="AnchetasMoritaModel.FK_COMPRAS_ESTADO_COMPRA" FromRole="COMPRAS" ToRole="ESTADO_COMPRA" />
+  </EntityType>
+  <Association Name="FK_COMPRAS_USUARIOS">
+    <End Type="AnchetasMoritaModel.USUARIOS" Role="USUARIOS" Multiplicity="1" />
+    <End Type="AnchetasMoritaModel.COMPRAS" Role="COMPRAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="COMPRAS">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_COMPRA_COMPRAS">
+    <End Type="AnchetasMoritaModel.COMPRAS" Role="COMPRAS" Multiplicity="1" />
+    <End Type="AnchetasMoritaModel.DETALLE_COMPRA" Role="DETALLE_COMPRA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COMPRAS">
+        <PropertyRef Name="ID_COMPRA" />
+      </Principal>
+      <Dependent Role="DETALLE_COMPRA">
+        <PropertyRef Name="ID_COMPRA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ESTADO_COMPRA">
+    <Key>
+      <PropertyRef Name="COD_ESTADO_COMPRA" />
+    </Key>
+    <Property Name="COD_ESTADO_COMPRA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_ESTADO_COMPRA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="COMPRAS" Relationship="AnchetasMoritaModel.FK_COMPRAS_ESTADO_COMPRA" FromRole="ESTADO_COMPRA" ToRole="COMPRAS" />
+  </EntityType>
+  <Association Name="FK_COMPRAS_ESTADO_COMPRA">
+    <End Type="AnchetasMoritaModel.ESTADO_COMPRA" Role="ESTADO_COMPRA" Multiplicity="0..1" />
+    <End Type="AnchetasMoritaModel.COMPRAS" Role="COMPRAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTADO_COMPRA">
+        <PropertyRef Name="COD_ESTADO_COMPRA" />
+      </Principal>
+      <Dependent Role="COMPRAS">
+        <PropertyRef Name="COD_ESTADO_COMPRA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

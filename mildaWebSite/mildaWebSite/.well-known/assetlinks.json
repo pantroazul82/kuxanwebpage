@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "co.kuxanm.app",
+    "sha256_cert_fingerprints": ["6F:00:B1:D5:83:11:28:12:D0:37:22:4F:EF:FF:06:D5:FD:E3:38:7F:89:B8:06:2B:E9:5D:85:78:B1:4E:EC:A2"] }
+}]
